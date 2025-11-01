@@ -1,0 +1,54 @@
+{
+  "_resourceType": "scene",
+  "id": "c91ead6c-b0ca-41f5-b3e8-0658890f11a4",
+  "_index": 0,
+  "type": "PLATFORM",
+  "name": "Map_Platform",
+  "symbol": "scene_1",
+  "x": 240,
+  "y": 232,
+  "width": 255,
+  "height": 18,
+  "backgroundId": "6af0cf41-a260-4bee-8e99-3ff63ac1aa48",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ff944b69-3455-4272-be59-ef621c734b4c"
+            },
+            "id": "4dd61e21-a36b-4698-adfd-8174b6d26d42"
+          }
+        ]
+      },
+      "id": "df5370cc-3238-49a8-8c95-c85112597ced"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0011ee+"
+}

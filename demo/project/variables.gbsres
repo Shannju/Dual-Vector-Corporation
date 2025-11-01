@@ -1,0 +1,20 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "V_X",
+      "symbol": "var_v_x"
+    },
+    {
+      "id": "1",
+      "name": "V_Y",
+      "symbol": "var_v_y"
+    },
+    {
+      "id": "2",
+      "name": "V_Z",
+      "symbol": "var_v_z"
+    }
+  ]
+}

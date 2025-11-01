@@ -1,0 +1,45 @@
+{
+  "_resourceType": "scene",
+  "id": "09afb9a5-691c-41e0-a70e-c0874b95cb2c",
+  "_index": 1,
+  "name": "Map_TopDown",
+  "backgroundId": "b7ad47fe-f3d4-4612-bb70-9727d32e513c",
+  "tilesetId": "",
+  "width": 255,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00708+0f5+00fa+0f!003+0f!00f3+0f8+003+0f6+00ee+0f!00f+0f!00ee+0f11+006e0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 235.66666412353516,
+  "y": 470,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ff944b69-3455-4272-be59-ef621c734b4c"
+            },
+            "id": "fbb14679-8ec1-4a73-8eb0-c7dafa326c8f"
+          }
+        ]
+      },
+      "id": "0bcbabe1-43f5-4b74-ad6a-0fb9682e6139"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

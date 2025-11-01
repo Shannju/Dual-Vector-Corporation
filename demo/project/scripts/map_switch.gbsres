@@ -1,0 +1,104 @@
+{
+  "_resourceType": "script",
+  "id": "ff944b69-3455-4272-be59-ef621c734b4c",
+  "name": "Map_Switch",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_IF_CURRENT_SCENE_IS",
+      "args": {
+        "sceneId": "c91ead6c-b0ca-41f5-b3e8-0658890f11a4",
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "6d2f9b95-5659-4411-9297-9b57dce42047",
+              "__collapse": true
+            },
+            "id": "f7804f8b-f56f-495b-ad5d-da18d48c8585"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0cc87230-aa84-42a6-8fdc-f7969ac37ef1"
+            },
+            "id": "5746e14d-2f48-4a0d-9401-d1b6491a45bc"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "09afb9a5-691c-41e0-a70e-c0874b95cb2c",
+              "x": {
+                "type": "variable",
+                "value": "0"
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "214e36ba-82ac-4974-9c86-2d5dc37ca5e7"
+          }
+        ],
+        "false": []
+      },
+      "id": "a4e0f097-148f-4fed-a0c8-bb85cc135a13"
+    },
+    {
+      "command": "EVENT_IF_CURRENT_SCENE_IS",
+      "args": {
+        "sceneId": "09afb9a5-691c-41e0-a70e-c0874b95cb2c",
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "6d2f9b95-5659-4411-9297-9b57dce42047"
+            },
+            "id": "8a1d5046-4d92-4524-b3eb-1137cfda0d20"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "cb0515fe-6f18-48ed-ad16-1eaa2bdd5580",
+              "__collapse": true
+            },
+            "id": "68798ccd-269c-4777-9cc1-558b91fe1fdb"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c91ead6c-b0ca-41f5-b3e8-0658890f11a4",
+              "x": {
+                "type": "variable",
+                "value": "0"
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "108833e2-82f3-4294-8e99-ba218d0b5648"
+          }
+        ],
+        "false": []
+      },
+      "id": "a3e63cd4-d034-4641-8f15-e510637ac978"
+    }
+  ]
+}

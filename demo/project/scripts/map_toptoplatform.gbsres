@@ -1,0 +1,28 @@
+{
+  "_resourceType": "script",
+  "id": "79b71435-d8da-470c-845b-29101fbe0aa2",
+  "name": "Map_TopToPlatform",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "0"
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "d61d1d1b-e466-4015-922f-65179ead6b60"
+    }
+  ]
+}
