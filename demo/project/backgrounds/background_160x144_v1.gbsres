@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "71fdc68a-f15e-41a1-b5b6-06c8d73983a2",
+  "name": "background 160x144 v1",
+  "symbol": "bg_background_160x144_v1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "background 160x144 v1.png",
+  "tileColors": "",
+  "autoColor": false
+}

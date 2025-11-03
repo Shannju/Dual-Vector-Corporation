@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "635a140c-2a67-445a-9714-fe8301cede83",
+  "name": "background long v2",
+  "symbol": "bg_background_long_v2",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "background long v2.png",
+  "tileColors": "07348+042+073a+042+07b2+",
+  "autoColor": false
+}

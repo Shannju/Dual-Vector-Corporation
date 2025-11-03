@@ -15,6 +15,11 @@
       "id": "2",
       "name": "V_Z",
       "symbol": "var_v_z"
+    },
+    {
+      "id": "3",
+      "name": "InTrigger",
+      "symbol": "var_intrigger"
     }
   ]
 }

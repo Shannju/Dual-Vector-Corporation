@@ -3,10 +3,25 @@
   "id": "ff944b69-3455-4272-be59-ef621c734b4c",
   "name": "Map_Switch",
   "description": "",
-  "variables": {},
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
   "actors": {},
   "symbol": "script_1",
   "script": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "0",
+        "vectorY": "V0"
+      },
+      "id": "eea6c027-f0be-4e0c-8d63-65941c89196c"
+    },
     {
       "command": "EVENT_IF_CURRENT_SCENE_IS",
       "args": {
@@ -18,17 +33,7 @@
         "true": [
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "6d2f9b95-5659-4411-9297-9b57dce42047",
-              "__collapse": true
-            },
-            "id": "f7804f8b-f56f-495b-ad5d-da18d48c8585"
-          },
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "0cc87230-aa84-42a6-8fdc-f7969ac37ef1"
-            },
+            "args": {},
             "id": "5746e14d-2f48-4a0d-9401-d1b6491a45bc"
           },
           {
@@ -40,11 +45,11 @@
                 "value": "0"
               },
               "y": {
-                "type": "number",
-                "value": 10
+                "type": "variable",
+                "value": "1"
               },
               "direction": "",
-              "fadeSpeed": "2",
+              "fadeSpeed": 1,
               "__collapse": false
             },
             "id": "214e36ba-82ac-4974-9c86-2d5dc37ca5e7"
@@ -65,17 +70,7 @@
         "true": [
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "6d2f9b95-5659-4411-9297-9b57dce42047"
-            },
-            "id": "8a1d5046-4d92-4524-b3eb-1137cfda0d20"
-          },
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "cb0515fe-6f18-48ed-ad16-1eaa2bdd5580",
-              "__collapse": true
-            },
+            "args": {},
             "id": "68798ccd-269c-4777-9cc1-558b91fe1fdb"
           },
           {
@@ -91,7 +86,7 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": 1
             },
             "id": "108833e2-82f3-4294-8e99-ba218d0b5648"
           }

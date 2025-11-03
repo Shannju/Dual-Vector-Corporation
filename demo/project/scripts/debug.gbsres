@@ -11,7 +11,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "tst1"
+          "debug"
         ],
         "__section": "text",
         "avatarId": "",
