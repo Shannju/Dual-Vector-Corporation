@@ -1,0 +1,84 @@
+{
+  "_resourceType": "scene",
+  "id": "75366f5d-d15a-4734-879b-09f7097bb605",
+  "_index": 2,
+  "name": "Menu",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00118+0114+003c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 329.41597747802734,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "3",
+        "items": 3,
+        "option1": "New Game",
+        "option2": "Continue",
+        "option3": "Database",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "__collapse": false,
+        "cancelOnLastOption": false
+      },
+      "id": "a133fc40-e7ff-407f-9776-0fdd46c7acc4"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c91ead6c-b0ca-41f5-b3e8-0658890f11a4",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "cbd73d0a-2183-4317-82b3-f27c97b8b2b7"
+          }
+        ],
+        "false": []
+      },
+      "id": "6cdcf2e4-0011-4cb6-b0d3-c6875fadf332"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
+}

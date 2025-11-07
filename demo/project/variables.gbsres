@@ -15,6 +15,21 @@
       "id": "2",
       "name": "V_Z",
       "symbol": "var_v_z"
+    },
+    {
+      "id": "3",
+      "name": "Menu_choise",
+      "symbol": "var_menu_choise"
+    },
+    {
+      "id": "4",
+      "name": "camX",
+      "symbol": "var_camx"
+    },
+    {
+      "id": "5",
+      "name": "camY",
+      "symbol": "var_camy"
     }
   ]
 }

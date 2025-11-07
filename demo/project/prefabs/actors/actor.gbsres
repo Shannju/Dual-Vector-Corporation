@@ -1,0 +1,19 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "b70b4efd-cf7d-4868-97cf-272127254a66",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "796ba09d-f9e6-417b-87f7-0f729b7feb45",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
