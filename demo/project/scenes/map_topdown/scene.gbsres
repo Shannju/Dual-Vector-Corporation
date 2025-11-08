@@ -4,6 +4,7 @@
   "_index": 1,
   "name": "Map_TopDown",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "backgroundId": "b7ad47fe-f3d4-4612-bb70-9727d32e513c",
   "tilesetId": "",
   "width": 255,
@@ -28,11 +29,23 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
+=======
+  "backgroundId": "bbbd5561-1f6f-43a4-af13-584a234209f3",
+  "tilesetId": "",
+  "width": 255,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+>>>>>>> Stashed changes
   "collisions": "0023dc+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
   "x": 240,
   "y": 576,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   "script": [
     {
@@ -107,6 +120,9 @@
         ]
       },
       "id": "adf33538-899d-42aa-8d9b-22516d00b09a"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
   ],
