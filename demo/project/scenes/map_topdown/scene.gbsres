@@ -10,7 +10,11 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
+<<<<<<< Updated upstream
   "collisions": "00708+0f5+00fa+0f!003+0f!00f3+0f8+003+0f6+00ee+0f!00f+0f!00ee+0f11+006e0+",
+=======
+  "collisions": "001f1+0f6+0036+0f6+0036+0f2+0035+0f7+0035+0f7+002f+0f8+0034+0f8+00e2+",
+>>>>>>> Stashed changes
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
   "x": 235.66666412353516,
