@@ -3,6 +3,7 @@
   "id": "09afb9a5-691c-41e0-a70e-c0874b95cb2c",
   "_index": 1,
   "name": "Map_TopDown",
+<<<<<<< Updated upstream
   "backgroundId": "b7ad47fe-f3d4-4612-bb70-9727d32e513c",
   "tilesetId": "",
   "width": 255,
@@ -19,12 +20,26 @@
   "symbol": "scene_2",
   "x": 235.66666412353516,
   "y": 470,
+=======
+  "backgroundId": "bbbd5561-1f6f-43a4-af13-584a234209f3",
+  "tilesetId": "",
+  "width": 255,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0023dc+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 240,
+  "y": 576,
+>>>>>>> Stashed changes
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -41,9 +56,62 @@
         ]
       },
       "id": "0bcbabe1-43f5-4b74-ad6a-0fb9682e6139"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {},
+      "id": "35d6f1f5-41ff-4959-bea5-e8435868cfd6"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "1d144f99-43d3-40e2-83a4-42f6fc25559d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 27
+        }
+      },
+      "id": "eee0d901-f48d-459b-8012-09096a9ca7d1"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "febcc27f-93d1-4a05-9e56-489447f32375"
+            },
+            "id": "80f2725f-2b17-419f-8c89-f311872c742a"
+          }
+        ]
+      },
+      "id": "adf33538-899d-42aa-8d9b-22516d00b09a"
+>>>>>>> Stashed changes
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "088b3a27-58a8-4abb-89f9-be3719ebfd19"
 }

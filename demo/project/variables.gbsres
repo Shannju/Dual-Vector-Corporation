@@ -18,6 +18,7 @@
     },
     {
       "id": "3",
+<<<<<<< Updated upstream
       "name": "Menu_choise",
       "symbol": "var_menu_choise"
     },
@@ -30,6 +31,20 @@
       "id": "5",
       "name": "camY",
       "symbol": "var_camy"
+=======
+      "name": "InTrigger",
+      "symbol": "var_intrigger"
+    },
+    {
+      "id": "4",
+      "name": "SavePoint_L1_A_X",
+      "symbol": "var_savepoint_l1_a_x"
+    },
+    {
+      "id": "5",
+      "name": "SavePoint_L1_A_Y",
+      "symbol": "var_savepoint_l1_a_y"
+>>>>>>> Stashed changes
     }
   ]
 }

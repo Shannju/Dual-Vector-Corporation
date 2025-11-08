@@ -8,6 +8,14 @@
     {
       "id": "plat_hold_grav",
       "value": 1379
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 22710
+    },
+    {
+      "id": "plat_grav",
+      "value": 1321
     }
   ]
 }

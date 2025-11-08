@@ -8,8 +8,13 @@
   "x": 240,
   "y": 232,
   "width": 255,
+<<<<<<< Updated upstream
   "height": 18,
   "backgroundId": "6af0cf41-a260-4bee-8e99-3ff63ac1aa48",
+=======
+  "height": 36,
+  "backgroundId": "91163ad3-3439-4d3a-97fd-2d7d960410c6",
+>>>>>>> Stashed changes
   "tilesetId": "",
   "paletteIds": [
     "",
@@ -28,7 +33,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -45,11 +50,25 @@
         ]
       },
       "id": "df5370cc-3238-49a8-8c95-c85112597ced"
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "4",
+        "vectorY": "5"
+      },
+      "id": "6a72550c-2784-4d04-b516-3c6405d48a03"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
+<<<<<<< Updated upstream
   "collisions": "0011ee+",
   "playerSpriteSheetId": "796ba09d-f9e6-417b-87f7-0f729b7feb45"
+=======
+  "collisions": "0010a6+0f2+004+0f20+00d9+0f2+004+0f20+0083+0fa+004+0f8+004+0f8+004+0f8+0028+0f2+00a7+0fa+004+0f8+004+0f8+004+0f8+0028+0f2+0061+0f6+0096+0f2+0061+0f6+0096+0f2+0061+0f6+0024+0fc+0044+0fa+0018+0f2+0061+0f6+0024+0fc+0044+0fa+0018+0f2+0061+0f6+007e+0fa+00e+0f2+0061+0f6+007e+0fa+00e+0f2+0061+0f6+0018+0fc+00c+0f8+0050+0fa+004+0f2+0018+0fc+006+0f18+001f+0f6+0018+0fc+00c+0f8+0050+0fa+004+0f2+0018+0fc+006+0f18+001f+0f6+00f9+0f6+00df+0f38+0020+0f8+009f+0f38+0020+0f8+0049b+",
+  "playerSpriteSheetId": "3dad09d7-5571-4b11-9988-f47e1964ed1a"
+>>>>>>> Stashed changes
 }
