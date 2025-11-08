@@ -7,9 +7,9 @@
   "symbol": "scene_1",
   "x": 240,
   "y": 232,
-  "width": 60,
-  "height": 18,
-  "backgroundId": "635a140c-2a67-445a-9714-fe8301cede83",
+  "width": 255,
+  "height": 36,
+  "backgroundId": "0c95c26a-3b18-4d8b-9be3-d371cd5ac264",
   "tilesetId": "",
   "paletteIds": [
     "",
@@ -28,7 +28,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ],
         "override": true,
         "__scriptTabs": "press"
@@ -50,5 +50,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0017a+0f4+0038+0f4+0038+0f4+0038+0f4+0038+0f4+0038+0f4+0038+0f4+0038+0f4+0026+0f26+00!0f!0014+0f5+00!0f20+00!0f!008c+"
+  "collisions": "0010a6+0f2+004+0f20+00d9+0f2+004+0f20+0083+0fa+004+0f8+004+0f8+004+0f8+0028+0f2+00a7+0fa+004+0f8+004+0f8+004+0f8+0028+0f2+0061+0f6+0096+0f2+0061+0f6+0096+0f2+0061+0f6+0024+0fc+0044+0fa+0018+0f2+0061+0f6+0024+0fc+0044+0fa+0018+0f2+0061+0f6+007e+0fa+00e+0f2+0061+0f6+007e+0fa+00e+0f2+0061+0f6+0018+0fc+00c+0f8+0050+0fa+004+0f2+0018+0fc+006+0f18+001f+0f6+0018+0fc+00c+0f8+0050+0fa+004+0f2+0018+0fc+006+0f18+001f+0f6+00f9+0f6+00df+0f38+0020+0f8+009f+0f38+0020+0f8+0049b+",
+  "playerSpriteSheetId": "088b3a27-58a8-4abb-89f9-be3719ebfd19"
 }

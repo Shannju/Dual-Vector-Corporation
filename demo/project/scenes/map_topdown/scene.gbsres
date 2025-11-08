@@ -3,24 +3,24 @@
   "id": "09afb9a5-691c-41e0-a70e-c0874b95cb2c",
   "_index": 1,
   "name": "Map_TopDown",
-  "backgroundId": "635a140c-2a67-445a-9714-fe8301cede83",
+  "backgroundId": "052396ac-40d3-4777-99ef-feafb115d7f3",
   "tilesetId": "",
-  "width": 60,
-  "height": 18,
+  "width": 255,
+  "height": 36,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00438+",
+  "collisions": "0023dc+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
   "x": 240,
-  "y": 432,
+  "y": 552,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "b"
         ],
         "override": true,
         "__scriptTabs": "press",
@@ -43,9 +43,54 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {},
       "id": "35d6f1f5-41ff-4959-bea5-e8435868cfd6"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "febcc27f-93d1-4a05-9e56-489447f32375"
+            },
+            "id": "79660959-0e76-4d70-8c8d-c0c4e1c4bbcd"
+          }
+        ]
+      },
+      "id": "6c325433-7096-4774-a46a-78ecfdd21ba0"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "e9aba375-8c5b-4041-a187-ecaa8c8b69c1"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 27
+        }
+      },
+      "id": "9e4a3ed7-6649-47b4-9014-fcbb28baafc0"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "3dad09d7-5571-4b11-9988-f47e1964ed1a"
 }

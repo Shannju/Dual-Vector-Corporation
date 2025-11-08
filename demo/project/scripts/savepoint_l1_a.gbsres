@@ -1,0 +1,33 @@
+{
+  "_resourceType": "script",
+  "id": "7ad4ee84-6c52-4c2c-a629-1d885bab8e23",
+  "name": "SavePoint_L1_A",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "4"
+        },
+        "y": {
+          "type": "variable",
+          "value": "5"
+        }
+      },
+      "id": "06526d27-eb32-4215-81c0-ba814466c66e"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_CANCEL",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "dffb9b21-b1a2-45da-9e82-2dda9cca10c3"
+    }
+  ]
+}

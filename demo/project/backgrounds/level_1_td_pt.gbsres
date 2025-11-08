@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "052396ac-40d3-4777-99ef-feafb115d7f3",
+  "name": "level_1_td_pt",
+  "symbol": "bg_level_1_td_pt",
+  "width": 255,
+  "height": 36,
+  "imageWidth": 2040,
+  "imageHeight": 288,
+  "filename": "level_1_td_pt.png",
+  "tileColors": "",
+  "autoColor": false
+}
