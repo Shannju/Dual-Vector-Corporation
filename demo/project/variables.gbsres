@@ -45,6 +45,16 @@
       "id": "8",
       "name": "Collections_L1_C",
       "symbol": "var_collections_l1_c"
+    },
+    {
+      "id": "9",
+      "name": "IsDash",
+      "symbol": "var_isdash"
+    },
+    {
+      "id": "10",
+      "name": "InDeadzone",
+      "symbol": "var_indeadzone"
     }
   ]
 }

@@ -87,6 +87,27 @@
         }
       },
       "id": "9e4a3ed7-6649-47b4-9014-fcbb28baafc0"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "456f483b-94f4-4dec-ae7a-380d917b0296"
+            },
+            "id": "96fa8e1e-5c8a-458f-97fa-30c9c0965758"
+          }
+        ]
+      },
+      "id": "2e52c678-0938-4565-8c39-dcb569dbeb84"
     }
   ],
   "playerHit1Script": [],

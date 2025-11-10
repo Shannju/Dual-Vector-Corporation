@@ -1,0 +1,21 @@
+{
+  "_resourceType": "script",
+  "id": "b8796a1a-f61a-4248-a045-93f9f39afac3",
+  "name": "Dead_Zone_out",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "67dbc6ea-882d-4dd6-91a6-8898f3232643"
+    }
+  ]
+}

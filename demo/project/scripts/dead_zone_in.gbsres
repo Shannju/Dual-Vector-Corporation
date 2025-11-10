@@ -1,0 +1,21 @@
+{
+  "_resourceType": "script",
+  "id": "7ad4ee84-6c52-4c2c-a629-1d885bab8e23",
+  "name": "Dead_Zone_In",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "108d0d76-f023-4a91-a0dc-4880406fd278"
+    }
+  ]
+}
