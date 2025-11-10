@@ -9,7 +9,15 @@
   "prefabScriptOverrides": {},
   "width": 107,
   "height": 6,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7ad4ee84-6c52-4c2c-a629-1d885bab8e23"
+      },
+      "id": "a3949cd7-4e0c-48df-82ab-010da015bb1e"
+    }
+  ],
   "leaveScript": [],
   "_index": 16
 }

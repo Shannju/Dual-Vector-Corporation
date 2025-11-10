@@ -9,7 +9,23 @@
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 6,
-  "script": [],
-  "leaveScript": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7ad4ee84-6c52-4c2c-a629-1d885bab8e23"
+      },
+      "id": "28993185-f86b-4070-a5ec-2d30ca80da0a"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "b8796a1a-f61a-4248-a045-93f9f39afac3"
+      },
+      "id": "c015f1f9-7e9c-4118-9c12-f9551f8da412"
+    }
+  ],
   "_index": 21
 }

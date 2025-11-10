@@ -18,6 +18,14 @@
       "id": "d5a71994-1946-45eb-b838-ec53221c20f4"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "b8796a1a-f61a-4248-a045-93f9f39afac3"
+      },
+      "id": "ca220543-bfb3-4692-bf42-8de5bd8d69da"
+    }
+  ],
   "_index": 13
 }
