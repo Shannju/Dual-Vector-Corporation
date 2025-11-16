@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "7eb3e9f8-1b97-4a20-be3a-9e48caf0e519",
+  "id": "43017e49-1c7b-4a01-bd9a-490442de77fb",
   "name": "",
   "prefabId": "",
-  "x": 220,
-  "y": 0,
-  "symbol": "trigger_16",
+  "x": 205,
+  "y": 18,
+  "symbol": "trigger_15",
   "prefabScriptOverrides": {},
-  "width": 35,
-  "height": 26,
+  "width": 7,
+  "height": 8,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -16,12 +16,12 @@
         "variable": "1",
         "value": {
           "type": "number",
-          "value": 13
+          "value": 1
         }
       },
-      "id": "acbc399f-7b12-4bdc-9dba-6148a580bacf"
+      "id": "efa927e3-a486-40fd-af6f-c6e9242f73b8"
     }
   ],
   "leaveScript": [],
-  "_index": 15
+  "_index": 18
 }

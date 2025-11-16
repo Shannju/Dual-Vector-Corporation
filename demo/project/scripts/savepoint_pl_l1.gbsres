@@ -1,0 +1,66 @@
+{
+  "_resourceType": "script",
+  "id": "271d4c91-560b-4124-a66d-99fb0b4555bc",
+  "name": "SavePoint_PL_L1",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "11"
+              },
+              "y": {
+                "type": "variable",
+                "value": "12"
+              },
+              "__collapse": false
+            },
+            "id": "f51c9bf3-5cb6-42ab-97aa-5f7de161e26e"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "d19790dc-0dc9-424b-9359-64dfc9874185"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "790eb2f7-a54c-48c9-a487-a6d5c60af00c"
+          }
+        ],
+        "false": []
+      },
+      "id": "85d61bdd-c9b6-4ef6-8f0c-d0806c672032"
+    }
+  ]
+}

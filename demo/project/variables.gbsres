@@ -23,13 +23,13 @@
     },
     {
       "id": "4",
-      "name": "SavePoint_L1_A_X",
-      "symbol": "var_savepoint_l1_a_x"
+      "name": "SavePoint_TD_L1_A_X",
+      "symbol": "var_savepoint_td_l1_a_x"
     },
     {
       "id": "5",
-      "name": "SavePoint_L1_A_Y",
-      "symbol": "var_savepoint_l1_a_y"
+      "name": "SavePoint_TD_L1_A_Y",
+      "symbol": "var_savepoint_td_l1_a_y"
     },
     {
       "id": "6",
@@ -55,6 +55,16 @@
       "id": "10",
       "name": "InDeadzone",
       "symbol": "var_indeadzone"
+    },
+    {
+      "id": "11",
+      "name": "SavePoint_PL_L1_A_X",
+      "symbol": "var_savepoint_pl_l1_a_x"
+    },
+    {
+      "id": "12",
+      "name": "SavePoint_PL_L1_A_Y",
+      "symbol": "var_savepoint_pl_l1_a_y"
     }
   ]
 }

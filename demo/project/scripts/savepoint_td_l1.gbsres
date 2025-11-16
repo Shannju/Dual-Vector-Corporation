@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "456f483b-94f4-4dec-ae7a-380d917b0296",
-  "name": "SavePoint_L1",
+  "name": "SavePoint_TD_L1",
   "description": "",
   "variables": {},
   "actors": {},
@@ -37,7 +37,8 @@
                   "type": "false"
                 }
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
