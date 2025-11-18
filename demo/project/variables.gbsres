@@ -65,6 +65,11 @@
       "id": "12",
       "name": "SavePoint_PL_L1_A_Y",
       "symbol": "var_savepoint_pl_l1_a_y"
+    },
+    {
+      "id": "2c7db72b-7bae-411d-85fb-c34530f1efdc__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     }
   ]
 }

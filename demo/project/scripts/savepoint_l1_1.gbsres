@@ -1,0 +1,55 @@
+{
+  "_resourceType": "script",
+  "id": "f833a50f-6452-4bb3-a70d-61ec2f62da3c",
+  "name": "SavePoint L1 1",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "11",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "1e2d7e3a-0206-4b6f-b789-a765b1bada66"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "number",
+          "value": 27
+        }
+      },
+      "id": "8eabcfeb-927d-4a95-ae8e-73ac95ce05c2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "11",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "c8382724-7d09-447e-9af7-8da9c685da29"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "number",
+          "value": 27
+        }
+      },
+      "id": "0f4d123c-ab96-46fd-b092-c24ee1124827"
+    }
+  ]
+}

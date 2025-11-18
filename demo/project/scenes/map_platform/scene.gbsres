@@ -53,7 +53,8 @@
         "value": {
           "type": "number",
           "value": 3
-        }
+        },
+        "__comment": false
       },
       "id": "f7f182d3-ea5e-4a4c-839e-2c0191fd44eb"
     },
@@ -64,7 +65,8 @@
         "value": {
           "type": "number",
           "value": 27
-        }
+        },
+        "__comment": false
       },
       "id": "989d8dbe-e2e6-4b67-92d3-c70a65623ab6"
     },

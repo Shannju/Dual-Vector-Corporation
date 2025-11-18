@@ -20,6 +20,50 @@
         }
       },
       "id": "6f7b29b8-8506-43e4-bb19-6805ac38f851"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "11",
+        "value": {
+          "type": "number",
+          "value": 152
+        }
+      },
+      "id": "2e2d5210-e8f6-480f-9e8e-119dd04619be"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "number",
+          "value": 21
+        }
+      },
+      "id": "ff517acc-174b-4d20-8c28-0a0535b40cfd"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 149
+        }
+      },
+      "id": "64bb4994-1ec2-472a-85ae-44825147c79d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 26
+        }
+      },
+      "id": "60862e28-3e7c-440d-8081-402128d78002"
     }
   ],
   "leaveScript": [],
