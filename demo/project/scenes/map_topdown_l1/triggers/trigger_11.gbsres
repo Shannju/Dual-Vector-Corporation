@@ -7,8 +7,8 @@
   "y": 0,
   "symbol": "trigger_22",
   "prefabScriptOverrides": {},
-  "width": 92,
-  "height": 14,
+  "width": 54,
+  "height": 16,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

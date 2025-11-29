@@ -3,13 +3,13 @@
   "id": "c91ead6c-b0ca-41f5-b3e8-0658890f11a4",
   "_index": 0,
   "type": "PLATFORM",
-  "name": "Map_Platform",
+  "name": "Map_Platform_L1",
   "symbol": "scene_1",
   "x": 240,
   "y": 232,
   "width": 255,
   "height": 36,
-  "backgroundId": "0c95c26a-3b18-4d8b-9be3-d371cd5ac264",
+  "backgroundId": "6556aec8-ebfe-4ecc-bbef-ff54f122db83",
   "tilesetId": "",
   "paletteIds": [
     "",
@@ -96,5 +96,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "collisions": "0010a6+0f2+004+0f20+00d9+0f2+004+0f20+0083+0fa+004+0f8+004+0f8+004+0f8+0028+0f2+00a7+0fa+004+0f8+004+0f8+004+0f8+0028+0f2+0061+0f6+0096+0f2+0061+0f6+0096+0f2+0061+0f6+0024+0fc+0044+0fa+0018+0f2+0061+0f6+0024+0fc+0044+0fa+0018+0f2+0061+0f6+007e+0fa+00e+0f2+0061+0f6+007e+0fa+00e+0f2+0061+0f6+0018+0fc+00c+0f8+0050+0fa+004+0f2+0018+0fc+006+0f18+001f+0f6+0018+0fc+00c+0f8+0050+0fa+004+0f2+0018+0fc+006+0f18+001f+0f6+00f9+0f6+00df+0f38+0020+0f8+009f+0f38+0020+0f8+0049b+",
-  "playerSpriteSheetId": "088b3a27-58a8-4abb-89f9-be3719ebfd19"
+  "playerSpriteSheetId": "d276a056-9bef-4015-bde0-02759a6d209e"
 }
