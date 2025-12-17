@@ -3,19 +3,43 @@
   "id": "42092243-a997-438a-991f-08be6d2ab3bb",
   "_index": 2,
   "name": "Map_Platform_L0",
-  "backgroundId": "edea2370-428d-42a7-bafd-7efc75b2750c",
+  "backgroundId": "0a243109-3619-4ad1-a8c5-a00f48f9dc6c",
   "tilesetId": "",
   "width": 255,
   "height": 36,
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0048c+0f6+00f9+0f6+002bf+0f8+0042+0f8+004+0f8+004+0f8+0024+0f10+0061+0f8+0042+0f8+004+0f8+004+0f8+0024+0f10+0061+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f8+002e+0f6+00c3+0f8+002e+0f6+00119+0f14+004+0f6+004+0f6+00d7+0f14+004+0f6+004+0f6+008b+0f6+001e+0f6+0022+0f2+00b1+0f6+001e+0f6+0022+0f2+00cb+0f6+002c+0f2+00cb+0f6+002c+0f2+00bb+0fe+0034+0f2+00bb+0fe+0034+0f2+0077+0fc+0038+0fe+0034+0f2+0077+0fc+0038+0fe+0034+0f2+0077+0fc+0022+0f24+0028+0fe+0077+0fc+0022+0f24+0028+0fe+006b+0f18+0022+0f24+00a1+0f18+0022+0f24+0085+0f34+00c+0fa+004+0f2c+0085+0f34+00c+0fa+004+0f2c+0085+0f4a+004+0f2c+0085+0f4a+004+0f2c+0085+",
+  "collisions": "0048c+0f6+00f9+0f6+002bf+0f8+0042+0f8+004+0f8+0030+0f10+0061+0f8+0042+0f8+004+0f8+0030+0f10+0061+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f8+002e+0f6+00c3+0f8+002e+0f6+00119+0f14+004+0f6+004+0f6+00d7+0f14+004+0f6+004+0f6+008b+0f6+001e+0f6+0022+0f2+00b1+0f6+001e+0f6+0022+0f2+00cb+0f6+002c+0f2+00cb+0f6+002c+0f2+00bb+0fe+0034+0f2+00bb+0fe+0034+0f2+0077+0fc+0038+0fe+0034+0f2+0077+0fc+0038+0fe+0034+0f2+0077+0fc+0022+0f24+0028+0fe+0077+0fc+0022+0f24+0028+0fe+006b+0f18+0022+0f24+00a1+0f18+0022+0f24+0085+0f34+00c+0fa+004+0f2c+0085+0f34+00c+0fa+004+0f2c+0085+0f4a+004+0f2c+0085+0f4a+004+0f2c+0085+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 2304,
   "y": 232,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ff944b69-3455-4272-be59-ef621c734b4c",
+              "__collapse": false
+            },
+            "id": "40be0e32-bee9-4e32-978b-2303c06eafc1"
+          }
+        ]
+      },
+      "id": "3216a4ad-9725-42e3-aac6-ae6dfea6aa88"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

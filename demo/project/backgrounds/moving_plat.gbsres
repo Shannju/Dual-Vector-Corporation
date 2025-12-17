@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "49149bad-aa82-4da5-9ff1-7e0e1031c319",
+  "name": "moving plat",
+  "symbol": "bg_moving_plat",
+  "width": 2,
+  "height": 2,
+  "imageWidth": 16,
+  "imageHeight": 16,
+  "filename": "moving plat.png",
+  "tileColors": "",
+  "autoColor": false
+}

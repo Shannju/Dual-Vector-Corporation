@@ -20,7 +20,7 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "7",
+        "variable": "8",
         "value": {
           "type": "true"
         }

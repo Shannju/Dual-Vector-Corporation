@@ -11,11 +11,23 @@
     },
     {
       "id": "plat_grav",
-      "value": 1209
+      "value": 1135
     },
     {
       "id": "plat_jump_vel",
       "value": 18539
+    },
+    {
+      "id": "plat_mp_group",
+      "value": 2
+    },
+    {
+      "id": "plat_drop_through",
+      "value": 0
+    },
+    {
+      "id": "plat_solid_group",
+      "value": 4
     }
   ]
 }
