@@ -40,6 +40,13 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "d2f823f9-ff42-48dd-bf24-0a459265f3b1"
+            },
+            "id": "c9e52804-7118-482f-aef4-d8507e2c6383"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
               "actorId": "$self$",
@@ -70,6 +77,13 @@
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "5221a1b1-26f8-4da4-8809-4b4baeb9613d"
+                  },
+                  "id": "415b04b4-29cf-41b5-8379-3330408bc69a"
+                },
                 {
                   "command": "EVENT_ACTOR_MOVE_RELATIVE",
                   "args": {
@@ -102,6 +116,13 @@
                   "children": {
                     "true": [
                       {
+                        "command": "EVENT_PLAYER_SET_SPRITE",
+                        "args": {
+                          "spriteSheetId": "641f0dd9-461e-4011-9216-c7730d1f2c8b"
+                        },
+                        "id": "aba7460a-e70e-4d87-a772-d8fdb499e630"
+                      },
+                      {
                         "command": "EVENT_ACTOR_MOVE_RELATIVE",
                         "args": {
                           "actorId": "$self$",
@@ -120,6 +141,13 @@
                       }
                     ],
                     "false": [
+                      {
+                        "command": "EVENT_PLAYER_SET_SPRITE",
+                        "args": {
+                          "spriteSheetId": "658f9d25-e516-42e9-addf-c03840d86482"
+                        },
+                        "id": "4bf2c453-9bd4-4a2c-a7b5-32b38eb43703"
+                      },
                       {
                         "command": "EVENT_ACTOR_MOVE_RELATIVE",
                         "args": {
@@ -148,6 +176,13 @@
         ]
       },
       "id": "ce37e930-b405-45c6-b2e0-bcbe0d18ea7a"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "a950e04c-89e9-45f8-b6a5-9b5c13287d96"
+      },
+      "id": "c534453b-6d0e-484e-ba43-3bccc96af044"
     },
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
