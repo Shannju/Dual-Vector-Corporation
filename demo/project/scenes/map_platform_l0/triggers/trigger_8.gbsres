@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "650a2d09-7c23-4427-b9c9-be55e2c3083a",
+  "name": "",
+  "prefabId": "",
+  "x": 69,
+  "y": 31,
+  "symbol": "trigger_59",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Need a little leap\nhere!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d2b31f1d-409c-4586-946f-838409190efe"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 7
+}

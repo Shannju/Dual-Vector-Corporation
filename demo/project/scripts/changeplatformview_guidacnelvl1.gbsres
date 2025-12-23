@@ -1,0 +1,36 @@
+{
+  "_resourceType": "script",
+  "id": "d498ff91-e351-4edd-a805-92c72b5e3e35",
+  "name": "Changeplatformview_guidacnelvl1",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Z to platform view"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4a38a004-2653-439e-9cf6-291afa78c76f"
+    }
+  ]
+}

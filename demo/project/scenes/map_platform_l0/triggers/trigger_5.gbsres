@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "bc8c4491-4a8c-49d4-b5ae-d2aa617cccfc",
+  "name": "",
+  "prefabId": "",
+  "x": 8,
+  "y": 31,
+  "symbol": "trigger_55",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Left and Right key\nto move"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a68adf68-cca9-455c-bbbe-ced8ba6269e2"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

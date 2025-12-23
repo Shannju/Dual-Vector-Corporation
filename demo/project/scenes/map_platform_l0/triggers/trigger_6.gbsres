@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "fcf12429-0af0-4b29-83c1-923c1f74f914",
+  "name": "",
+  "prefabId": "",
+  "x": 48,
+  "y": 25,
+  "symbol": "trigger_57",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I wonder if we \nhave fall damage"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "74a927b0-7a69-4ba0-9375-d7741f69e795"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}
