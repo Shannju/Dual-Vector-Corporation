@@ -5,8 +5,8 @@
   "type": "PLATFORM",
   "name": "Map_Platform_L1",
   "symbol": "scene_1",
-  "x": 240,
-  "y": 232,
+  "x": 168,
+  "y": 592,
   "width": 255,
   "height": 36,
   "backgroundId": "6556aec8-ebfe-4ecc-bbef-ff54f122db83",
@@ -54,7 +54,7 @@
           "type": "number",
           "value": 3
         },
-        "__comment": false
+        "__comment": true
       },
       "id": "f7f182d3-ea5e-4a4c-839e-2c0191fd44eb"
     },
@@ -66,7 +66,7 @@
           "type": "number",
           "value": 27
         },
-        "__comment": false
+        "__comment": true
       },
       "id": "989d8dbe-e2e6-4b67-92d3-c70a65623ab6"
     },

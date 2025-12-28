@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "fdc7e398-092c-43d1-b80a-c7fd36c18e22",
+  "name": "level_2_pf",
+  "symbol": "bg_level_2_pf",
+  "width": 255,
+  "height": 36,
+  "imageWidth": 2040,
+  "imageHeight": 288,
+  "filename": "level_2_pf.png",
+  "tileColors": ""
+}

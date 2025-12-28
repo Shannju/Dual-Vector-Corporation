@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "145b0d1e-8c22-48a5-a843-0a322dfa0f8f",
-  "name": "Moveplatform",
+  "name": "Moveplatform L0",
   "description": "",
   "variables": {},
   "actors": {
@@ -27,7 +27,7 @@
               },
               "y": {
                 "type": "number",
-                "value": -13
+                "value": -24
               },
               "moveType": "vertical",
               "useCollisions": false
@@ -44,7 +44,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 13
+                "value": 24
               },
               "moveType": "vertical",
               "useCollisions": false

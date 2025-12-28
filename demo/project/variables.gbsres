@@ -77,6 +77,16 @@
       "symbol": "var_pl_y"
     },
     {
+      "id": "15",
+      "name": "SavePoint_PL_L0_A_X",
+      "symbol": "var_savepoint_pl_l0_a_x"
+    },
+    {
+      "id": "16",
+      "name": "SavePoint_PL_L0_A_Y",
+      "symbol": "var_savepoint_pl_l0_a_y"
+    },
+    {
       "id": "2c7db72b-7bae-411d-85fb-c34530f1efdc__L0",
       "name": "Local 0",
       "symbol": "var_local_1"

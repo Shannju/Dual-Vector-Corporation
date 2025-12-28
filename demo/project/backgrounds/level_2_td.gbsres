@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "222bd816-2c7f-4559-8a48-50c55ca742df",
+  "name": "level_2_td",
+  "symbol": "bg_level_2_td",
+  "width": 255,
+  "height": 36,
+  "imageWidth": 2040,
+  "imageHeight": 288,
+  "filename": "level_2_td.png",
+  "tileColors": ""
+}

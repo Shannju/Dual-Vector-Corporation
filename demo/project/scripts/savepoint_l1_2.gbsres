@@ -1,11 +1,11 @@
 {
   "_resourceType": "script",
-  "id": "f833a50f-6452-4bb3-a70d-61ec2f62da3c",
-  "name": "SavePoint_L1_1",
+  "id": "191bb412-9012-481a-91a2-fe7bbb9b2292",
+  "name": "SavePoint_L1_2",
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_8",
+  "symbol": "script_13",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -13,10 +13,10 @@
         "variable": "11",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 152
         }
       },
-      "id": "1e2d7e3a-0206-4b6f-b789-a765b1bada66"
+      "id": "ca00dd89-c751-46aa-8666-f385bed03008"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -24,32 +24,32 @@
         "variable": "12",
         "value": {
           "type": "number",
-          "value": 27
+          "value": 21
         }
       },
-      "id": "8eabcfeb-927d-4a95-ae8e-73ac95ce05c2"
+      "id": "4d26a7f3-7538-49c3-bb0b-7d2500a89bcc"
     },
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "11",
+        "variable": "4",
         "value": {
           "type": "number",
-          "value": 3
+          "value": 149
         }
       },
-      "id": "c8382724-7d09-447e-9af7-8da9c685da29"
+      "id": "79225bfa-065e-4a30-b218-b39ef29bb4d1"
     },
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "12",
+        "variable": "5",
         "value": {
           "type": "number",
-          "value": 27
+          "value": 26
         }
       },
-      "id": "0f4d123c-ab96-46fd-b092-c24ee1124827"
+      "id": "e46830f6-c0cd-453d-a7ea-54502ca76664"
     }
   ]
 }

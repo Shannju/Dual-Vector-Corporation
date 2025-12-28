@@ -28,7 +28,8 @@
         "value": {
           "type": "number",
           "value": 152
-        }
+        },
+        "__comment": true
       },
       "id": "2e2d5210-e8f6-480f-9e8e-119dd04619be"
     },
@@ -39,7 +40,8 @@
         "value": {
           "type": "number",
           "value": 21
-        }
+        },
+        "__comment": true
       },
       "id": "ff517acc-174b-4d20-8c28-0a0535b40cfd"
     },
@@ -50,7 +52,8 @@
         "value": {
           "type": "number",
           "value": 149
-        }
+        },
+        "__comment": true
       },
       "id": "64bb4994-1ec2-472a-85ae-44825147c79d"
     },
@@ -61,9 +64,17 @@
         "value": {
           "type": "number",
           "value": 26
-        }
+        },
+        "__comment": true
       },
       "id": "60862e28-3e7c-440d-8081-402128d78002"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "191bb412-9012-481a-91a2-fe7bbb9b2292"
+      },
+      "id": "a0bedb88-be9a-4e9a-ae3f-00e0f338d5f4"
     }
   ],
   "leaveScript": [],

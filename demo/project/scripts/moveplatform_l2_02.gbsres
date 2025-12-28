@@ -1,0 +1,59 @@
+{
+  "_resourceType": "script",
+  "id": "c58774ce-b37e-49e5-8bb3-ffde0d0ff44d",
+  "name": "Moveplatform_L2_02",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "角色 A"
+    }
+  },
+  "symbol": "script_12",
+  "script": [
+    {
+      "command": "EVENT_LOOP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "53342542-ac70-48e2-a137-27661d8d7963"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": -17
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "3b80a5a6-debd-43bc-91b1-1d9b479825e7"
+          }
+        ]
+      },
+      "id": "3758d0c0-78f3-4b00-8035-208b38216e8f"
+    }
+  ]
+}
