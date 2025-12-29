@@ -1,0 +1,24 @@
+{
+  "_resourceType": "script",
+  "id": "3dab961b-86ac-48d6-adf9-83aa130f297e",
+  "name": "Jump_Sound",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_15",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "e5dbd11a-3370-4586-8983-796777a35541",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 4
+      },
+      "id": "ca344da0-7a29-477a-b127-fb08878c75b4"
+    }
+  ]
+}

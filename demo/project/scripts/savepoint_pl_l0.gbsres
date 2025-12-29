@@ -25,6 +25,29 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+              "__comment": true,
+              "__collapse": false
+            },
+            "id": "0cfef219-78d8-4189-a003-1c1631488300"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "bbee4cc3-3567-427f-a76e-1f82caaf86f7",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 11
+            },
+            "id": "652b3120-f6f7-4c83-aa53-f4f593cb504c"
+          },
+          {
             "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
               "actorId": "$self$",
