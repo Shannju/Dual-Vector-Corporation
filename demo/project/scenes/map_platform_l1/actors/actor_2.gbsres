@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "2114fc46-6ff6-49df-b0db-66eee049ff64",
+  "id": "2f94a95c-615f-45bc-a69b-95bf18c50243",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,15 +14,15 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_12",
+  "symbol": "actor_23",
   "script": [
     {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "actorId": "878a1bbf-6836-49dd-8b56-aa3180c967cd",
+        "actorId": "7c9cb0fe-5b9a-40b5-aa16-568ac4b7b48b",
         "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
       },
-      "id": "9d1d9bd1-cde8-4eb9-b685-f62007d98d7f"
+      "id": "c2b83c13-7d46-4952-a0f5-705f55b64b50"
     },
     {
       "command": "EVENT_TEXT",
@@ -47,7 +47,24 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "073062df-9741-497c-910f-725e83f2040a"
+      "id": "fa180b37-9cb2-4952-b398-954755613fb8"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 247
+        },
+        "y": {
+          "type": "number",
+          "value": 25
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "accd275f-802e-4771-a227-8767d20f7977"
     },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -60,24 +77,24 @@
         "wait": true,
         "effect": 13
       },
-      "id": "ca19578b-6359-47b9-beca-41c070b31ffd"
+      "id": "d8cd5502-6ef1-4383-b588-7e9dffcee1f1"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "c91ead6c-b0ca-41f5-b3e8-0658890f11a4",
+        "sceneId": "42092243-a997-438a-991f-08be6d2ab3bb",
         "x": {
           "type": "number",
-          "value": 1
+          "value": 2
         },
         "y": {
           "type": "number",
-          "value": 28
+          "value": 29
         },
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "abfab20f-ec2f-4b45-a756-bd6daf230116"
+      "id": "a2cb0613-4383-4fda-9bd5-a6a31897e340"
     }
   ],
   "startScript": [],
@@ -85,7 +102,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 239,
-  "y": 7,
-  "_index": 10
+  "x": 240,
+  "y": 25,
+  "_index": 1
 }

@@ -7,7 +7,7 @@
   "y": 0,
   "symbol": "trigger_16",
   "prefabScriptOverrides": {},
-  "width": 24,
+  "width": 18,
   "height": 26,
   "script": [
     {

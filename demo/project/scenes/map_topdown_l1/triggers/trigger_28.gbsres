@@ -26,6 +26,19 @@
         }
       },
       "id": "e5b9329e-b0a9-465c-b39e-047c515ccfdb"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "bbee4cc3-3567-427f-a76e-1f82caaf86f7",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 5
+      },
+      "id": "778ceb20-0d85-45c0-9cb6-1b2179bd9199"
     }
   ],
   "leaveScript": [],
