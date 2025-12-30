@@ -89,7 +89,11 @@
         },
         "y": {
           "type": "number",
+<<<<<<< Updated upstream
           "value": 31
+=======
+          "value": 30
+>>>>>>> Stashed changes
         },
         "direction": "",
         "fadeSpeed": "2"
