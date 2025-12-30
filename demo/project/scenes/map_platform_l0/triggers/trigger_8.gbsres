@@ -3,6 +3,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "id": "650a2d09-7c23-4427-b9c9-be55e2c3083a",
   "name": "",
   "prefabId": "",
@@ -17,11 +18,18 @@
   "name": "",
   "prefabId": "",
   "x": 0,
+=======
+  "id": "58ea298b-419e-4275-86aa-dc82ddae5012",
+  "name": "",
+  "prefabId": "",
+  "x": 2,
+>>>>>>> Stashed changes
   "y": 29,
   "symbol": "trigger_60",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 3,
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
   "script": [
     {
@@ -111,6 +119,9 @@
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
+>>>>>>> Stashed changes
+=======
+  "script": [],
 >>>>>>> Stashed changes
   "leaveScript": [],
   "_index": 7
