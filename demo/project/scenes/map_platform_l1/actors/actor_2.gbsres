@@ -90,7 +90,11 @@
         "y": {
           "type": "number",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           "value": 31
+=======
+          "value": 30
+>>>>>>> Stashed changes
 =======
           "value": 30
 >>>>>>> Stashed changes

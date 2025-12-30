@@ -2,6 +2,7 @@
   "_resourceType": "trigger",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "id": "650a2d09-7c23-4427-b9c9-be55e2c3083a",
   "name": "",
   "prefabId": "",
@@ -95,6 +96,8 @@
     }
   ],
 =======
+=======
+>>>>>>> Stashed changes
   "id": "2540bdf2-bf98-4007-93c5-32697aa10fe8",
   "name": "",
   "prefabId": "",
@@ -105,6 +108,9 @@
   "width": 2,
   "height": 2,
   "script": [],
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   "leaveScript": [],
   "_index": 7
