@@ -1,11 +1,11 @@
 {
   "_resourceType": "script",
-  "id": "271d4c91-560b-4124-a66d-99fb0b4555bc",
-  "name": "SavePoint_PL_L1",
+  "id": "a37bc869-9673-46c3-b002-359a875992cd",
+  "name": "SavePoint_PL_L0",
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_7",
+  "symbol": "script_10",
   "script": [
     {
       "command": "EVENT_IF",
@@ -25,6 +25,16 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+              "__comment": true,
+              "__collapse": false
+            },
+            "id": "0cfef219-78d8-4189-a003-1c1631488300"
+          },
+          {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
               "type": "bbee4cc3-3567-427f-a76e-1f82caaf86f7",
@@ -35,7 +45,7 @@
               "wait": true,
               "effect": 11
             },
-            "id": "22142c55-1fe1-4b5a-95f2-666d48d80bd1"
+            "id": "652b3120-f6f7-4c83-aa53-f4f593cb504c"
           },
           {
             "command": "EVENT_ACTOR_SET_POSITION",
@@ -43,22 +53,21 @@
               "actorId": "$self$",
               "x": {
                 "type": "variable",
-                "value": "11"
+                "value": "15"
               },
               "y": {
                 "type": "variable",
-                "value": "12"
-              },
-              "__collapse": false
+                "value": "16"
+              }
             },
-            "id": "f51c9bf3-5cb6-42ab-97aa-5f7de161e26e"
+            "id": "19f9d1ce-f384-4591-9b5e-ec26dbab6da3"
           },
           {
             "command": "EVENT_ACTOR_MOVE_CANCEL",
             "args": {
               "actorId": "$self$"
             },
-            "id": "d19790dc-0dc9-424b-9359-64dfc9874185"
+            "id": "a3b7c0be-fbb4-41df-b6cc-5fe39aef1b5e"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -68,12 +77,12 @@
                 "type": "false"
               }
             },
-            "id": "790eb2f7-a54c-48c9-a487-a6d5c60af00c"
+            "id": "33625f38-1dcf-4e0b-81c2-a831a2b94f4c"
           }
         ],
         "false": []
       },
-      "id": "85d61bdd-c9b6-4ef6-8f0c-d0806c672032"
+      "id": "be73eeca-1f68-4109-b47a-16cc9b6ba247"
     }
   ]
 }

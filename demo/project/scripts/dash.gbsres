@@ -27,6 +27,19 @@
       "id": "b28f60ce-4f91-4cb0-917c-12cb78a559b2"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "bbee4cc3-3567-427f-a76e-1f82caaf86f7",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 31
+      },
+      "id": "2c3ee785-1532-4588-940f-e346a68f56ff"
+    },
+    {
       "command": "EVENT_IF_ACTOR_DIRECTION",
       "args": {
         "actorId": "$self$",

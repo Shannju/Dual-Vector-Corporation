@@ -1,41 +1,31 @@
 {
   "_resourceType": "trigger",
-  "id": "bc8c4491-4a8c-49d4-b5ae-d2aa617cccfc",
+  "id": "ee48527d-cc23-4ef8-9267-ca6e7d441bcb",
   "name": "",
   "prefabId": "",
-  "x": 8,
-  "y": 31,
-  "symbol": "trigger_55",
+  "x": 122,
+  "y": 33,
+  "symbol": "trigger_56",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 1,
+  "width": 133,
+  "height": 3,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "text": [
-          "Left and Right key\nto move"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "customEventId": "7ad4ee84-6c52-4c2c-a629-1d885bab8e23"
       },
-      "id": "a68adf68-cca9-455c-bbbe-ced8ba6269e2"
+      "id": "cc1aba83-e876-4e22-bffd-1707576a5160"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "b8796a1a-f61a-4248-a045-93f9f39afac3"
+      },
+      "id": "7a0e7188-feec-4b34-b9c3-0273a1647e6b"
+    }
+  ],
   "_index": 4
 }

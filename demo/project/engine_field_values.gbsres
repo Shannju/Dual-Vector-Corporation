@@ -28,6 +28,10 @@
     {
       "id": "plat_solid_group",
       "value": 4
+    },
+    {
+      "id": "INPUT_PLATFORM_INTERACT",
+      "value": "INPUT_UP"
     }
   ]
 }

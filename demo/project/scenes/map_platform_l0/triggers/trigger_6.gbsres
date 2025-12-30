@@ -1,39 +1,36 @@
 {
   "_resourceType": "trigger",
-  "id": "fcf12429-0af0-4b29-83c1-923c1f74f914",
+  "id": "4dbcaf40-b696-4a25-b758-a21a57ac38f9",
   "name": "",
   "prefabId": "",
-  "x": 48,
-  "y": 25,
+  "x": 111,
+  "y": 9,
   "symbol": "trigger_57",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 1,
+  "width": 10,
+  "height": 15,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "text": [
-          "I wonder if we \nhave fall damage"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "variable": "15",
+        "value": {
+          "type": "number",
+          "value": 115
+        }
       },
-      "id": "74a927b0-7a69-4ba0-9375-d7741f69e795"
+      "id": "67311792-bb5a-4879-8023-d03afd1cb431"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "16",
+        "value": {
+          "type": "number",
+          "value": 23
+        }
+      },
+      "id": "b9e1491d-31bc-412f-b950-878e993533e7"
     }
   ],
   "leaveScript": [],

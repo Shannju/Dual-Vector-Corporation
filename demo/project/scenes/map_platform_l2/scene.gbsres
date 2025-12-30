@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "80eb9b15-07ac-4616-b935-724839095d07",
+  "_index": 3,
+  "name": "Map_Platform_L2",
+  "backgroundId": "fdc7e398-092c-43d1-b80a-c7fd36c18e22",
+  "tilesetId": "",
+  "width": 255,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0060+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00fd+0f2+00b1+0f8+004+0f18+004+0f14+0010+0f2+0010+0fc+0020+0f10+004+0f8+0059+0f8+004+0f18+004+0f14+0010+0f2+0010+0fc+0020+0f10+004+0f8+005f+0f2+004+0f2+002c+0f2+0010+0f2+00b7+0f2+004+0f2+002c+0f2+0010+0f2+00ab+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+00ab+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+00ab+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+00ab+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+00ab+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+003c+0fc+004+0f1c+0043+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+003c+0fc+004+0f1c+0043+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+00ab+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+00ab+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+00ab+0f4+008+0f2+004+0f2+002c+0f2+0010+0f2+00ab+0f4+008+0f8+002c+0f2+0010+0f2+00ab+0f4+008+0f8+002c+0f2+0010+0f2+00ab+0f4+003c+0f2+00bd+0f4+003c+0f2+00bd+0f4+003c+0f2+00bd+0f4+003c+0f2+00af+0f22+004+0f2a+0010+0f12+0018+0f4+003c+0f20+0015+0f22+004+0f2a+0010+0f12+0018+0f4+003c+0f20+00411+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 168,
+  "y": 1272,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "908e19a0-24be-4be8-a48e-60f9ca96586a"
+            },
+            "id": "8798a71a-5e3b-4ba5-b18f-e9ff38c7a1da"
+          }
+        ]
+      },
+      "id": "21579cb5-1cc2-435e-b6a0-6e5e5d6ced9c"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "f57d943d-6e13-4a5c-830e-8e7068e1adfa",
+        "__collapse": false
+      },
+      "id": "a34e5716-be5c-4b3a-83ad-d90f4df2aac8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

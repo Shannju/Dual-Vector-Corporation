@@ -5,8 +5,8 @@
   "type": "PLATFORM",
   "name": "Map_Platform_L1",
   "symbol": "scene_1",
-  "x": 240,
-  "y": 232,
+  "x": 168,
+  "y": 592,
   "width": 255,
   "height": 36,
   "backgroundId": "6556aec8-ebfe-4ecc-bbef-ff54f122db83",
@@ -47,6 +47,28 @@
       "id": "df5370cc-3238-49a8-8c95-c85112597ced"
     },
     {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "3dab961b-86ac-48d6-adf9-83aa130f297e"
+            },
+            "id": "c86a2d30-af79-4484-808a-908c003fbe28"
+          }
+        ]
+      },
+      "id": "47507afa-a5a5-4093-8b6f-98f36c1c75f2"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "11",
@@ -54,7 +76,7 @@
           "type": "number",
           "value": 3
         },
-        "__comment": false
+        "__comment": true
       },
       "id": "f7f182d3-ea5e-4a4c-839e-2c0191fd44eb"
     },
@@ -66,7 +88,7 @@
           "type": "number",
           "value": 27
         },
-        "__comment": false
+        "__comment": true
       },
       "id": "989d8dbe-e2e6-4b67-92d3-c70a65623ab6"
     },
@@ -90,6 +112,13 @@
         ]
       },
       "id": "a5dbf2ca-7d98-4d75-b0fc-f6a3c00d554f"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "ad6c9723-3092-4531-a17a-c58e19ab4eae"
+      },
+      "id": "e3c6b66a-85df-4c89-b14a-947542f5caa7"
     }
   ],
   "playerHit1Script": [],

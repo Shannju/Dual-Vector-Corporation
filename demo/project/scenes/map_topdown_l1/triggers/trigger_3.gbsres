@@ -16,13 +16,6 @@
         "customEventId": "7ad4ee84-6c52-4c2c-a629-1d885bab8e23"
       },
       "id": "3c21a01b-260c-4526-858b-b8f04477f697"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "d498ff91-e351-4edd-a805-92c72b5e3e35"
-      },
-      "id": "a2fc7590-816c-44c7-8170-f0db634e3c41"
     }
   ],
   "leaveScript": [],

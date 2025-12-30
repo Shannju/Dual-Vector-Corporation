@@ -85,19 +85,11 @@
         "sceneId": "42092243-a997-438a-991f-08be6d2ab3bb",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 2
         },
         "y": {
           "type": "number",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-          "value": 31
-=======
-          "value": 30
->>>>>>> Stashed changes
-=======
-          "value": 30
->>>>>>> Stashed changes
+          "value": 29
         },
         "direction": "",
         "fadeSpeed": "2"

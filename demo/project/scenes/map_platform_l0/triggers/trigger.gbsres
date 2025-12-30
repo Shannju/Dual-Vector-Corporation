@@ -16,6 +16,19 @@
         "actorId": "bcb51750-3407-47a9-9805-61ab2e56fdf9"
       },
       "id": "8f059007-1fb6-4086-8aa1-a58bbb30696f"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "bbee4cc3-3567-427f-a76e-1f82caaf86f7",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 5
+      },
+      "id": "87ae8426-7f7b-42da-abc7-1583198815b0"
     }
   ],
   "leaveScript": [],

@@ -25,18 +25,9 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "f833a50f-6452-4bb3-a70d-61ec2f62da3c",
-        "__comment": true,
-        "__collapse": false
+        "__comment": false
       },
       "id": "63c18642-53e4-4478-8eee-94e240cd9ad3"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "e6a8c396-87ef-4589-b98f-ca28035cbb38",
-        "__collapse": false
-      },
-      "id": "38e38ec4-08b7-4c4a-966c-8f3601bd691f"
     }
   ],
   "leaveScript": [],

@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "ff944b69-3455-4272-be59-ef621c734b4c",
-  "name": "Map_Switch",
+  "name": "Map_Switch_L1",
   "description": "",
   "variables": {
     "V0": {
