@@ -1,20 +1,21 @@
 {
   "_resourceType": "trigger",
-  "id": "187f2796-b1ff-43a4-87dd-a3ba9559b19c",
+  "id": "e4dc2c31-4f4e-4faa-95a7-14d34659906d",
   "name": "",
   "prefabId": "",
-  "x": 0,
+  "x": 13,
   "y": 28,
-  "symbol": "trigger_60",
+  "symbol": "trigger_62",
   "prefabScriptOverrides": {},
-  "width": 2,
+  "width": 3,
   "height": 4,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " Where is this\n place?"
+          " What's that?",
+          " I'd better take\n a look."
         ],
         "__section": "text",
         "avatarId": "384e82be-6254-44ce-9cce-fa4df3ac69be",
@@ -33,17 +34,9 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "1f586209-c031-43fe-a1e5-5da18dfe46ef"
-    },
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
-      },
-      "id": "0165e0e5-11ed-4163-a1fe-375fa9593ceb"
+      "id": "0c2f7d67-3ef2-4cb0-884a-01f7c5f114db"
     }
   ],
   "leaveScript": [],
-  "_index": 7
+  "_index": 8
 }
