@@ -69,6 +69,28 @@
       "id": "47507afa-a5a5-4093-8b6f-98f36c1c75f2"
     },
     {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "eac7f849-419d-48c8-b0e1-35720940586c"
+            },
+            "id": "9a53c696-1a12-44c8-9a3c-997b8b301d17"
+          }
+        ]
+      },
+      "id": "eccada3f-5fe3-49fa-8b75-1b7c848da24e"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "11",
@@ -119,6 +141,18 @@
         "musicId": "ad6c9723-3092-4531-a17a-c58e19ab4eae"
       },
       "id": "e3c6b66a-85df-4c89-b14a-947542f5caa7"
+    },
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "80435cd5-3a04-4ed1-8bac-b21b10f2843d"
     }
   ],
   "playerHit1Script": [],
