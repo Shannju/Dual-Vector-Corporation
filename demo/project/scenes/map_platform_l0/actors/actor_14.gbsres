@@ -1,0 +1,78 @@
+{
+  "_resourceType": "actor",
+  "id": "5e078824-4e0e-438e-bcc5-651a1d736d0e",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3dad09d7-5571-4b11-9988-f47e1964ed1a",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_26",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You might want \nto look around."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1cce63b2-2db7-4cbb-b1ca-d53ae764d016"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " What does it\n mean?"
+        ],
+        "__section": "text",
+        "avatarId": "8269a5b4-8762-47d4-9456-94aa9e29aa75",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "17458a7e-a672-48c7-b0da-4e49938e388d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 96,
+  "y": 27,
+  "_index": 13
+}

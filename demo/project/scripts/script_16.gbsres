@@ -1,0 +1,16 @@
+{
+  "_resourceType": "script",
+  "id": "a77e3e88-93d4-4d88-a20f-57994635d21e",
+  "name": "Script 16",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_16",
+  "script": [
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {},
+      "id": "f3529e1f-094f-4d06-9788-525d6c165d7f"
+    }
+  ]
+}
