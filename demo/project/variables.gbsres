@@ -87,9 +87,40 @@
       "symbol": "var_savepoint_pl_l0_a_y"
     },
     {
+<<<<<<< Updated upstream
       "id": "2c7db72b-7bae-411d-85fb-c34530f1efdc__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+=======
+      "id": "17",
+      "name": "Main_menu_choice",
+      "symbol": "var_main_menu_choice"
+    },
+    {
+      "id": "18",
+      "name": "Collections_L0_A",
+      "symbol": "var_collections_l0_a"
+    },
+    {
+      "id": "19",
+      "name": "Collections_L0_B",
+      "symbol": "var_collections_l0_b"
+    },
+    {
+      "id": "20",
+      "name": "Collections_L0_C",
+      "symbol": "var_collections_l0_c"
+    },
+    {
+      "id": "2c7db72b-7bae-411d-85fb-c34530f1efdc__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "f6ea2025-1280-4b0b-9a00-452d8498be73__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+>>>>>>> Stashed changes
     }
   ]
 }

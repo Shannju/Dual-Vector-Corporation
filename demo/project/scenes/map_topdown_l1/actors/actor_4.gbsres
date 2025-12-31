@@ -20,8 +20,12 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
+<<<<<<< Updated upstream:demo/project/scenes/map_topdown_l1/actors/actor_4.gbsres
           "Always check your\nsurroundings.",
           "If you find out \nhard to pass."
+=======
+          "1A1"
+>>>>>>> Stashed changes:demo/project/scenes/database1/actors/actor_4.gbsres
         ],
         "__section": "text",
         "avatarId": "",
