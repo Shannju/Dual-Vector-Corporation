@@ -1,10 +1,18 @@
 {
   "_resourceType": "actor",
+<<<<<<< Updated upstream
   "id": "bb1e0727-62a8-4e2a-9ac0-2d679757074b",
   "name": "",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "3dad09d7-5571-4b11-9988-f47e1964ed1a",
+=======
+  "id": "e553df03-f1a1-4381-8982-f160831710f3",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "efdd48c5-8ff0-4602-83ce-80647c7f96aa",
+>>>>>>> Stashed changes
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,7 +22,11 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
+<<<<<<< Updated upstream
   "symbol": "actor_25",
+=======
+  "symbol": "actor_38",
+>>>>>>> Stashed changes
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -39,7 +51,11 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
+<<<<<<< Updated upstream
       "id": "e543c209-2aec-43d5-931a-28510d32d63e"
+=======
+      "id": "2d8de64e-dc8c-4b45-b851-cd29633707f0"
+>>>>>>> Stashed changes
     }
   ],
   "startScript": [],
@@ -47,7 +63,11 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
+<<<<<<< Updated upstream
   "x": 19,
+=======
+  "x": 17,
+>>>>>>> Stashed changes
   "y": 31,
   "_index": 12
 }
