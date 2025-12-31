@@ -34,14 +34,6 @@
         "closeDelayFrames": 30
       },
       "id": "1f586209-c031-43fe-a1e5-5da18dfe46ef"
-    },
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
-      },
-      "id": "0165e0e5-11ed-4163-a1fe-375fa9593ceb"
     }
   ],
   "leaveScript": [],

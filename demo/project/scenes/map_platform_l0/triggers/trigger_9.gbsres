@@ -3,13 +3,21 @@
   "id": "e4dc2c31-4f4e-4faa-95a7-14d34659906d",
   "name": "",
   "prefabId": "",
-  "x": 13,
+  "x": 12,
   "y": 28,
   "symbol": "trigger_62",
   "prefabScriptOverrides": {},
   "width": 3,
   "height": 4,
   "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+      },
+      "id": "4e8de189-6f52-48c8-9902-c2962d01fa60"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
