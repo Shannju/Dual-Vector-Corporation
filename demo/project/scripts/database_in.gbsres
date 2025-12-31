@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "eac7f849-419d-48c8-b0e1-35720940586c",
+  "name": "Database_In",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_16",
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7f5830ed-eec7-4fa3-9369-b9cf262c5fe5",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "61fe6f41-2dcf-4460-9c20-a2e9c12f8999"
+          }
+        ],
+        "load": []
+      },
+      "id": "a8f8a8a5-943d-4e6a-9b6b-162df601a2f9"
+    }
+  ]
+}

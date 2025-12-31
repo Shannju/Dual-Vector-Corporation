@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 168,
-  "y": 272,
+  "y": 256,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -60,6 +60,28 @@
         ]
       },
       "id": "af2c7bbd-1ff9-4283-8604-8437df8313cc"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "eac7f849-419d-48c8-b0e1-35720940586c"
+            },
+            "id": "85483dcc-17e8-4ade-acdc-3da4ffc3fcad"
+          }
+        ]
+      },
+      "id": "8f5809dc-e5cf-4bb9-9afb-323267672cec"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -110,6 +132,18 @@
         "musicId": "ad6c9723-3092-4531-a17a-c58e19ab4eae"
       },
       "id": "e911c8e7-2d1c-497a-984e-6b23fa716a02"
+    },
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "078be633-3037-4745-9ee3-fdc23cd895b2"
     }
   ],
   "playerHit1Script": [],

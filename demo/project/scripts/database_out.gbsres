@@ -1,0 +1,18 @@
+{
+  "_resourceType": "script",
+  "id": "7f75f067-3f89-47cb-9db9-57c7cadc7932",
+  "name": "Database_out",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_17",
+  "script": [
+    {
+      "command": "EVENT_LOAD_DATA",
+      "args": {
+        "saveSlot": 0
+      },
+      "id": "76041180-aa4c-49fc-8704-2f281df800ee"
+    }
+  ]
+}

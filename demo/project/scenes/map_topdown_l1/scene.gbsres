@@ -3,7 +3,7 @@
   "id": "09afb9a5-691c-41e0-a70e-c0874b95cb2c",
   "_index": 1,
   "name": "Map_TopDown_L1",
-  "backgroundId": "59fbda25-b516-466a-8a97-1d6de9a9a146",
+  "backgroundId": "090d4d57-a96d-4783-be78-713dbdd81f81",
   "tilesetId": "",
   "width": 255,
   "height": 36,
@@ -70,47 +70,23 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "a"
+          "start"
         ],
-        "override": false,
-        "__scriptTabs": "press",
-        "__comment": true
+        "override": true,
+        "__scriptTabs": "press"
       },
       "children": {
         "true": [
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {},
-            "id": "591da5bb-a18a-4497-8375-7b36b3d8f8e3"
+            "args": {
+              "customEventId": "eac7f849-419d-48c8-b0e1-35720940586c"
+            },
+            "id": "f48deff3-ad2b-4cd4-b591-f414f6e1a2a7"
           }
         ]
       },
-      "id": "48bc5835-07fd-4aba-ab5d-2d39804f6851"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "4",
-        "value": {
-          "type": "number",
-          "value": 2
-        },
-        "__comment": true,
-        "__collapse": false
-      },
-      "id": "e9aba375-8c5b-4041-a187-ecaa8c8b69c1"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "5",
-        "value": {
-          "type": "number",
-          "value": 27
-        },
-        "__comment": true
-      },
-      "id": "9e4a3ed7-6649-47b4-9014-fcbb28baafc0"
+      "id": "3edf030c-359a-4313-923c-b509a974beae"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -139,6 +115,18 @@
         "musicId": "ad6c9723-3092-4531-a17a-c58e19ab4eae"
       },
       "id": "1c694587-aee0-410b-a630-10b3b2177f6a"
+    },
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "bf739440-b527-4254-ab53-9531950d83c4"
     }
   ],
   "playerHit1Script": [],

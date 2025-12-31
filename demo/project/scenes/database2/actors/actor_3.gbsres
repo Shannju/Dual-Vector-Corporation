@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "705386b5-a978-4fc7-a515-1469a79ce4f9",
+  "id": "810c5333-d59d-4694-bded-cb648a3c8a63",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "3dad09d7-5571-4b11-9988-f47e1964ed1a",
+  "spriteSheetId": "21207f01-1a77-4ed9-a297-b9b08b6fd98f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,24 +14,20 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_28",
+  "symbol": "actor_34",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
-        "text": [
-          "Press B to\n\nenter Topdown mode",
-          "If you get stuck",
-          "Always remember to\nswitch between"
-        ],
+        "text": "",
         "__section": "text",
         "avatarId": "",
-        "minHeight": 5,
-        "maxHeight": 5,
+        "minHeight": 4,
+        "maxHeight": 7,
         "textX": 1,
         "textY": 1,
-        "textHeight": 3,
-        "position": "top",
+        "textHeight": 5,
+        "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
@@ -41,7 +37,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "ae317416-ddeb-44aa-a19e-9f1f8c4ad565"
+      "id": "9aaa9673-a20e-47f5-bb9d-bd4dda0fccfd"
     }
   ],
   "startScript": [],
@@ -49,7 +45,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 11,
-  "y": 25,
+  "x": 12,
+  "y": 4,
   "_index": 2
 }

@@ -1,8 +1,5 @@
 {
   "_resourceType": "variables",
-<<<<<<< Updated upstream
-  "variables": []
-=======
   "variables": [
     {
       "id": "0",
@@ -120,5 +117,4 @@
       "symbol": "var_local_0"
     }
   ]
->>>>>>> Stashed changes
 }

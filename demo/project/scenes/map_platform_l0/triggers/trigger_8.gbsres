@@ -1,19 +1,11 @@
 {
   "_resourceType": "trigger",
-<<<<<<< Updated upstream
-  "id": "187f2796-b1ff-43a4-87dd-a3ba9559b19c",
-=======
   "id": "1ac3db4c-2b1a-44bf-8624-15144f051d78",
->>>>>>> Stashed changes
   "name": "",
   "prefabId": "",
   "x": 0,
   "y": 28,
-<<<<<<< Updated upstream
-  "symbol": "trigger_60",
-=======
   "symbol": "trigger_63",
->>>>>>> Stashed changes
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 4,
@@ -22,17 +14,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-<<<<<<< Updated upstream
-          " Where is this\n place?"
-        ],
-        "__section": "text",
-        "avatarId": "384e82be-6254-44ce-9cce-fa4df3ac69be",
-=======
           " What is this\n place?"
         ],
         "__section": "text",
         "avatarId": "23e076f6-700b-438d-ac5e-d4db6568e006",
->>>>>>> Stashed changes
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -48,11 +33,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-<<<<<<< Updated upstream
-      "id": "1f586209-c031-43fe-a1e5-5da18dfe46ef"
-=======
       "id": "062e0121-4e64-4d45-b0d7-59f7b6a8a08d"
->>>>>>> Stashed changes
     }
   ],
   "leaveScript": [],

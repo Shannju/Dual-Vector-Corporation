@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "c9cec30b-a82c-4c75-a035-380f29d8f303",
+  "id": "8519b2b5-9458-4456-8f5d-0c71432a2587",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "efdd48c5-8ff0-4602-83ce-80647c7f96aa",
+  "spriteSheetId": "21207f01-1a77-4ed9-a297-b9b08b6fd98f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,14 +14,13 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_40",
+  "symbol": "actor_32",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Find and interact\nwith terminals",
-          "If you want to go \nto next level"
+          "A"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,15 +39,45 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "dbf822ae-b6ab-4b6e-92e9-ccf56f95be2a"
+      "id": "102cabb9-6721-48a2-845f-f9f4199eee2b"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "391bc364-e8ea-4155-8690-7d631d4c8d58"
+          }
+        ],
+        "false": []
+      },
+      "id": "25919135-4ccb-461e-b21a-f10bd21cac53"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 182,
-  "y": 17,
-  "_index": 14
+  "x": 6,
+  "y": 4,
+  "_index": 0
 }

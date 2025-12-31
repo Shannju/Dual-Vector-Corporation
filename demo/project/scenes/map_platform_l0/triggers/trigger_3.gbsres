@@ -11,6 +11,16 @@
   "height": 4,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "dca19b20-bc3e-49a6-8b95-5ab87272417c"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "f1ac7010-2857-427b-ab1f-e034b9111711"

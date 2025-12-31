@@ -1,16 +1,5 @@
 {
   "_resourceType": "trigger",
-<<<<<<< Updated upstream
-  "id": "e4dc2c31-4f4e-4faa-95a7-14d34659906d",
-  "name": "",
-  "prefabId": "",
-  "x": 12,
-  "y": 28,
-  "symbol": "trigger_62",
-  "prefabScriptOverrides": {},
-  "width": 3,
-  "height": 4,
-=======
   "id": "686a0ef5-8946-4c2b-b498-642e262dd88f",
   "name": "",
   "prefabId": "",
@@ -20,7 +9,6 @@
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 3,
->>>>>>> Stashed changes
   "script": [
     {
       "command": "EVENT_ACTOR_EMOTE",
@@ -28,28 +16,17 @@
         "actorId": "$self$",
         "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
       },
-<<<<<<< Updated upstream
-      "id": "4e8de189-6f52-48c8-9902-c2962d01fa60"
-=======
       "id": "9fd59cc4-6a73-48f7-a8be-cbb91427397f"
->>>>>>> Stashed changes
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           " What's that?",
-<<<<<<< Updated upstream
-          " I'd better take\n a look."
-        ],
-        "__section": "text",
-        "avatarId": "384e82be-6254-44ce-9cce-fa4df3ac69be",
-=======
           " I better take a\n look"
         ],
         "__section": "text",
         "avatarId": "23e076f6-700b-438d-ac5e-d4db6568e006",
->>>>>>> Stashed changes
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -65,12 +42,6 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-<<<<<<< Updated upstream
-      "id": "0c2f7d67-3ef2-4cb0-884a-01f7c5f114db"
-    }
-  ],
-  "leaveScript": [],
-=======
       "id": "80cd1b54-3327-48ef-ba17-abbc0a95188c"
     }
   ],
@@ -83,6 +54,5 @@
       "id": "2e9ed95f-8a3a-4657-aeff-3e2a5b25e04d"
     }
   ],
->>>>>>> Stashed changes
   "_index": 8
 }

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "2a7f2c62-943c-497f-91d5-6cb0609e43e2",
+  "id": "e346c024-1f4c-4229-b873-43a6ef094e69",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "efdd48c5-8ff0-4602-83ce-80647c7f96aa",
+  "spriteSheetId": "21207f01-1a77-4ed9-a297-b9b08b6fd98f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,13 +14,13 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_39",
+  "symbol": "actor_28",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Beware of your\nsurroundings"
+          "C"
         ],
         "__section": "text",
         "avatarId": "",
@@ -39,40 +39,45 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "8225c838-9378-407d-8981-17d42f871bf2"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          " What's that \n mean?"
-        ],
-        "__section": "text",
-        "avatarId": "23e076f6-700b-438d-ac5e-d4db6568e006",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "7d3e89d9-f5a3-46a3-b464-9b6cc2c9205f"
+      "id": "83fdc637-e251-4789-bdc3-55bed47553ab"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "6651bcfc-1238-42ac-9b59-8f956b96ff59"
+          }
+        ],
+        "false": []
+      },
+      "id": "628dc71e-71e8-48b3-8b9a-8d69a1695f79"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 98,
-  "y": 27,
-  "_index": 13
+  "x": 12,
+  "y": 4,
+  "_index": 2
 }

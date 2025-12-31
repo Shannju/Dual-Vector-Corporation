@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "c9cec30b-a82c-4c75-a035-380f29d8f303",
+  "id": "77e8ac0c-681f-4039-8511-a874acc479dc",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "efdd48c5-8ff0-4602-83ce-80647c7f96aa",
+  "spriteSheetId": "21207f01-1a77-4ed9-a297-b9b08b6fd98f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,15 +14,12 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_40",
+  "symbol": "actor_35",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
-        "text": [
-          "Find and interact\nwith terminals",
-          "If you want to go \nto next level"
-        ],
+        "text": "",
         "__section": "text",
         "avatarId": "",
         "minHeight": 4,
@@ -40,7 +37,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "dbf822ae-b6ab-4b6e-92e9-ccf56f95be2a"
+      "id": "68da8df8-82aa-4069-a2cd-36f4c8d16eac"
     }
   ],
   "startScript": [],
@@ -48,7 +45,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 182,
-  "y": 17,
-  "_index": 14
+  "x": 6,
+  "y": 14,
+  "_index": 3
 }
