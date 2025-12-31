@@ -20,17 +20,18 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Always press B to\nenter Topdown mode",
-          "If you get stuck"
+          "Press B to\n\nenter Topdown mode",
+          "If you get stuck",
+          "Always remember to\nswitch between"
         ],
         "__section": "text",
         "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
+        "minHeight": 5,
+        "maxHeight": 5,
         "textX": 1,
         "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
+        "textHeight": 3,
+        "position": "top",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
