@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "c9cec30b-a82c-4c75-a035-380f29d8f303",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "efdd48c5-8ff0-4602-83ce-80647c7f96aa",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_40",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Find and interact\nwith terminals",
+          "If you want to go \nto next level"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dbf822ae-b6ab-4b6e-92e9-ccf56f95be2a"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 182,
+  "y": 17,
+  "_index": 14
+}

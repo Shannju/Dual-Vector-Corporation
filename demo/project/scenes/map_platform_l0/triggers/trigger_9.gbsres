@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "686a0ef5-8946-4c2b-b498-642e262dd88f",
+  "name": "",
+  "prefabId": "",
+  "x": 9,
+  "y": 29,
+  "symbol": "trigger_64",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+      },
+      "id": "9fd59cc4-6a73-48f7-a8be-cbb91427397f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " What's that?",
+          " I better take a\n look."
+        ],
+        "__section": "text",
+        "avatarId": "23e076f6-700b-438d-ac5e-d4db6568e006",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "80cd1b54-3327-48ef-ba17-abbc0a95188c"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
+      "args": {
+        "speed": 0
+      },
+      "id": "2e9ed95f-8a3a-4657-aeff-3e2a5b25e04d"
+    }
+  ],
+  "_index": 8
+}

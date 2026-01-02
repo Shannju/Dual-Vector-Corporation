@@ -1,0 +1,78 @@
+{
+  "_resourceType": "actor",
+  "id": "2a7f2c62-943c-497f-91d5-6cb0609e43e2",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "efdd48c5-8ff0-4602-83ce-80647c7f96aa",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_39",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Beware of your\nsurroundings"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8225c838-9378-407d-8981-17d42f871bf2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " What's that \n mean?"
+        ],
+        "__section": "text",
+        "avatarId": "23e076f6-700b-438d-ac5e-d4db6568e006",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7d3e89d9-f5a3-46a3-b464-9b6cc2c9205f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 98,
+  "y": 27,
+  "_index": 13
+}
