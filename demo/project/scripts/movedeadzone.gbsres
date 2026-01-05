@@ -1,0 +1,33 @@
+{
+  "_resourceType": "script",
+  "id": "58daa903-7e63-429d-a84d-0cfc2b16a19b",
+  "name": "MoveDeadZone",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_19",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_CANCEL",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a7295268-e030-40f0-9a63-548b54d9ab12"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "22"
+        },
+        "y": {
+          "type": "variable",
+          "value": "23"
+        }
+      },
+      "id": "cdec93a8-d242-4739-991c-747dfffb144e"
+    }
+  ]
+}

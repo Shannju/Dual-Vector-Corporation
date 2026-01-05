@@ -3,7 +3,7 @@
   "id": "80eb9b15-07ac-4616-b935-724839095d07",
   "_index": 3,
   "name": "Map_Platform_L2",
-  "backgroundId": "fdc7e398-092c-43d1-b80a-c7fd36c18e22",
+  "backgroundId": "4fa3c6d3-5db2-4016-9743-2826becb4f36",
   "tilesetId": "",
   "width": 255,
   "height": 36,
@@ -41,13 +41,36 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "f57d943d-6e13-4a5c-830e-8e7068e1adfa",
+        "musicId": "ad6c9723-3092-4531-a17a-c58e19ab4eae",
         "__collapse": false
       },
       "id": "a34e5716-be5c-4b3a-83ad-d90f4df2aac8"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "3dab961b-86ac-48d6-adf9-83aa130f297e"
+            },
+            "id": "8c1d7997-bda3-45e1-9663-29f87031ded8"
+          }
+        ]
+      },
+      "id": "a6484fc2-d3fe-44ad-b098-2135e7ea22f4"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "d276a056-9bef-4015-bde0-02759a6d209e"
 }
