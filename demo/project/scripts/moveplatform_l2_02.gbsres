@@ -23,7 +23,7 @@
               "actorId": "0",
               "x": {
                 "type": "number",
-                "value": 17
+                "value": 20
               },
               "y": {
                 "type": "number",
@@ -40,7 +40,7 @@
               "actorId": "0",
               "x": {
                 "type": "number",
-                "value": -17
+                "value": -20
               },
               "y": {
                 "type": "number",

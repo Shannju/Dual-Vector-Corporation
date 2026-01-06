@@ -107,6 +107,31 @@
       "symbol": "var_collections_l0_c"
     },
     {
+      "id": "21",
+      "name": "InMovePlatform",
+      "symbol": "var_inmoveplatform"
+    },
+    {
+      "id": "22",
+      "name": "SavePoint_TD_L2_A_X",
+      "symbol": "var_savepoint_td_l2_a_x"
+    },
+    {
+      "id": "23",
+      "name": "SavePoint_TD_L2_A_Y",
+      "symbol": "var_savepoint_td_l2_a_y"
+    },
+    {
+      "id": "24",
+      "name": "SavePoint_PL_L2_A_X",
+      "symbol": "var_savepoint_pl_l2_a_x"
+    },
+    {
+      "id": "25",
+      "name": "SavePoint_PL_L2_A_Y",
+      "symbol": "var_savepoint_pl_l2_a_y"
+    },
+    {
       "id": "2c7db72b-7bae-411d-85fb-c34530f1efdc__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
