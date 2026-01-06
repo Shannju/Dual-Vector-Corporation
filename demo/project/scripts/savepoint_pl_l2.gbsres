@@ -1,0 +1,79 @@
+{
+  "_resourceType": "script",
+  "id": "c4054d9e-bccc-483f-9c95-d0458f9fb0a6",
+  "name": "SavePoint_PL_L2",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_21",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "660323b0-247f-4085-949d-8bb44be4c7b5",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 11
+            },
+            "id": "93599d1d-db90-40b4-b4fb-05ff3596f6e9"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "variable",
+                "value": "24"
+              },
+              "y": {
+                "type": "variable",
+                "value": "25"
+              },
+              "__collapse": false
+            },
+            "id": "086f9149-4449-4917-a6bc-3f19ed3d00b7"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "be3c3774-7e5b-4480-a2e4-474320f8b5ac"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "411eb619-8ded-4559-8cf1-e26e464b86be"
+          }
+        ],
+        "false": []
+      },
+      "id": "a914f642-f821-43fb-9784-5ad05b496fca"
+    }
+  ]
+}

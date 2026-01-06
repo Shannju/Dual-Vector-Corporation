@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "784bee8b-f98b-4215-aa54-25aeeffe2877",
+  "name": "level_2_td_test",
+  "symbol": "bg_level_2_td_test",
+  "width": 255,
+  "height": 36,
+  "imageWidth": 2040,
+  "imageHeight": 288,
+  "filename": "level_2_td_test.png",
+  "tileColors": "",
+  "autoColor": false
+}

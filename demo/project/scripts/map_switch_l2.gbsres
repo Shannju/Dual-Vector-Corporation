@@ -3,7 +3,13 @@
   "id": "908e19a0-24be-4be8-a48e-60f9ca96586a",
   "name": "Map_Switch_L2",
   "description": "",
-  "variables": {},
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
   "actors": {},
   "symbol": "script_14",
   "script": [
@@ -12,39 +18,9 @@
       "args": {
         "actorId": "$self$",
         "vectorX": "0",
-        "vectorY": "17"
+        "vectorY": "V0"
       },
       "id": "2e4aff25-8ea1-431c-bd77-2e6275379fdc"
-    },
-    {
-      "command": "EVENT_IF_CURRENT_SCENE_IS",
-      "args": {
-        "sceneId": "97c14fea-693a-479f-afa3-be2356136204",
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "80eb9b15-07ac-4616-b935-724839095d07",
-              "x": {
-                "type": "variable",
-                "value": "0"
-              },
-              "y": {
-                "type": "variable",
-                "value": "1"
-              },
-              "direction": "",
-              "fadeSpeed": 1
-            },
-            "id": "1253ab7a-812a-4fcf-9c3d-f2d8b9c22582"
-          }
-        ],
-        "false": []
-      },
-      "id": "905e3710-6060-485d-8244-e60d40ffafc2"
     },
     {
       "command": "EVENT_IF_CURRENT_SCENE_IS",
@@ -63,8 +39,8 @@
                 "value": "0"
               },
               "y": {
-                "type": "number",
-                "value": 0
+                "type": "variable",
+                "value": "1"
               },
               "direction": "",
               "fadeSpeed": 1
@@ -75,6 +51,36 @@
         "false": []
       },
       "id": "d78ffc4f-b144-4271-947a-6183270134d6"
+    },
+    {
+      "command": "EVENT_IF_CURRENT_SCENE_IS",
+      "args": {
+        "sceneId": "97c14fea-693a-479f-afa3-be2356136204",
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "80eb9b15-07ac-4616-b935-724839095d07",
+              "x": {
+                "type": "variable",
+                "value": "0"
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "1253ab7a-812a-4fcf-9c3d-f2d8b9c22582"
+          }
+        ],
+        "false": []
+      },
+      "id": "905e3710-6060-485d-8244-e60d40ffafc2"
     }
   ]
 }
