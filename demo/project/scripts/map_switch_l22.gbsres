@@ -1,0 +1,99 @@
+{
+  "_resourceType": "script",
+  "id": "ce45a6df-aee6-4880-b174-c11f8bc80380",
+  "name": "Map_Switch_L22",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_22",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "0",
+        "vectorY": "V0"
+      },
+      "id": "888cbf9e-2537-4368-961d-17e6641e8c67"
+    },
+    {
+      "command": "EVENT_IF_CURRENT_SCENE_IS",
+      "args": {
+        "sceneId": "80eb9b15-07ac-4616-b935-724839095d07",
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {},
+            "id": "2ba6d7a9-fde3-447d-bbe0-2a0a43e72ca8"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "97c14fea-693a-479f-afa3-be2356136204",
+              "x": {
+                "type": "variable",
+                "value": "0"
+              },
+              "y": {
+                "type": "variable",
+                "value": "1"
+              },
+              "direction": "",
+              "fadeSpeed": 1,
+              "__collapse": false
+            },
+            "id": "e38dbe9a-e5d2-40d5-9cf7-5ae554aa0f91"
+          }
+        ],
+        "false": []
+      },
+      "id": "72e03bb9-ad73-4db4-9702-bea1c50c4e78"
+    },
+    {
+      "command": "EVENT_IF_CURRENT_SCENE_IS",
+      "args": {
+        "sceneId": "97c14fea-693a-479f-afa3-be2356136204",
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {},
+            "id": "db915488-bd3b-4d80-91b7-af07cbad1c82"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "80eb9b15-07ac-4616-b935-724839095d07",
+              "x": {
+                "type": "variable",
+                "value": "0"
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1
+            },
+            "id": "d9cfaa8b-9db8-49f3-97cd-bb57455b95dd"
+          }
+        ],
+        "false": []
+      },
+      "id": "e69d76ed-c6dd-43e5-b657-fc8f161ff2bc"
+    }
+  ]
+}

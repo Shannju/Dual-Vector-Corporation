@@ -52,7 +52,7 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "908e19a0-24be-4be8-a48e-60f9ca96586a"
+              "customEventId": "ce45a6df-aee6-4880-b174-c11f8bc80380"
             },
             "id": "c58cadd6-e787-4b4a-a7de-cce480bc1315"
           }
@@ -80,7 +80,8 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "ec0aee91-7d31-4c7c-8d52-4eda464993ce"
+              "customEventId": "ec0aee91-7d31-4c7c-8d52-4eda464993ce",
+              "__collapse": false
             },
             "id": "437f1302-036b-47d3-9240-412468bda304"
           }
