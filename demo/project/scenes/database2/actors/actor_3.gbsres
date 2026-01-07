@@ -21,8 +21,9 @@
       "args": {
         "text": [
           "...",
-          "I reach the end \nof the room, but \nI can not find \nthe exit anywhere",
-          "Is that mean Im \ntrapped here \nforever",
+          "I reach the end \nof the room, but \nI can not find ",
+          "the exit anywhere\nIs that mean Im \ntrapped here ",
+          "forever",
           "No, it can not be \n",
           "There has to be a \nway to leave this \nplace!",
           "..."

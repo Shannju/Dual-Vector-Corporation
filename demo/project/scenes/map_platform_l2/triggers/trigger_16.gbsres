@@ -20,6 +20,13 @@
         }
       },
       "id": "98c24c83-d691-4d7b-9d42-de19ae4b1fb5"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "beef818b-da9d-4476-b6d4-716d0a2494af"
+      },
+      "id": "b0951450-fa42-46f8-a22b-b10bd88d05e8"
     }
   ],
   "leaveScript": [],

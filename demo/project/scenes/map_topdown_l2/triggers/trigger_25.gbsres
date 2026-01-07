@@ -7,9 +7,17 @@
   "y": 14,
   "symbol": "trigger_120",
   "prefabScriptOverrides": {},
-  "width": 17,
+  "width": 26,
   "height": 4,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "beef818b-da9d-4476-b6d4-716d0a2494af"
+      },
+      "id": "75978cfe-52ca-4647-957a-0e36e5edf0c7"
+    }
+  ],
   "leaveScript": [],
   "_index": 24
 }

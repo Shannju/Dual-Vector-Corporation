@@ -21,8 +21,9 @@
       "args": {
         "text": [
           "I used the \nability to get \npass the obstacles",
-          "even though I \nstill did not \nfigure out why \nthey place these \ntraps",
-          "The only thing I \ncan do is follow \nthe terminal and \nkeep going"
+          "even though I \nstill did not \nfigure out why ",
+          "they place these \ntraps.\nThe only thing I ",
+          "can do is follow \nthe terminal and \nkeep going"
         ],
         "__section": "text",
         "avatarId": "",

@@ -21,8 +21,9 @@
       "args": {
         "text": [
           "This factory is \nsuch a strange\nplace",
-          "no bio signs and \nother common \nthings would \nappear inside a\nfactory. ",
-          "There is only \nstrange moving \nplatforms and \ntraps. ",
+          "no bio signs and \nother common \nthings would ",
+          "appear inside a\nfactory. \nThere is only ",
+          "strange moving \nplatforms and \ntraps. ",
           "What is this \nplace?"
         ],
         "__section": "text",

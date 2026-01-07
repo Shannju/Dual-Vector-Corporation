@@ -21,7 +21,8 @@
       "args": {
         "text": [
           "......",
-          "...Protocol \nIO55781E \nactivated, \ninitiating layout \nchange...",
+          "...Protocol \nIO55781E \nactivated",
+          "initiating layout \nchange...",
           "......",
           "The record ends \nhere."
         ],
