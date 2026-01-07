@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "ff6b8fd6-52d6-4c7f-b643-951b0a8fd477",
+  "id": "6c8ae8e9-9ee2-42a7-8ac5-5f9d4158972a",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_41",
+  "symbol": "actor_57",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Always press B for\nanother view",
-          "if you get stuck."
+          "Another precious \nhint...",
+          "B is useful for\nedge"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +40,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "af642d41-1ed1-4163-98a2-b4e9fae43121"
+      "id": "a7bdf3cf-7883-42ad-b1d3-98f6d0576c35"
     }
   ],
   "startScript": [],
@@ -48,7 +48,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 9,
-  "y": 29,
-  "_index": 3
+  "x": 172,
+  "y": 25,
+  "_index": 4
 }

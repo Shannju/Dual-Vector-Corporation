@@ -8,5 +8,6 @@
   "imageWidth": 2040,
   "imageHeight": 288,
   "filename": "level_2_td_pt_0107.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "ff6b8fd6-52d6-4c7f-b643-951b0a8fd477",
+  "id": "2f5e2a42-fa02-4810-b819-da92098f09db",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,14 +14,13 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_41",
+  "symbol": "actor_56",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Always press B for\nanother view",
-          "if you get stuck."
+          "Press ENTER to see\nthe storage data"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +39,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "af642d41-1ed1-4163-98a2-b4e9fae43121"
+      "id": "0bc294e2-5cb1-45d2-94a5-dce67183b26c"
     }
   ],
   "startScript": [],
@@ -48,7 +47,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 9,
-  "y": 29,
-  "_index": 3
+  "x": 100,
+  "y": 19,
+  "_index": 15
 }
