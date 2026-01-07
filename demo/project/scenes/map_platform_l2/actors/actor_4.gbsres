@@ -7,7 +7,7 @@
   "spriteSheetId": "383bd689-42f3-49af-ad2e-740753ca44aa",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 1,
+  "moveSpeed": 0.5,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,

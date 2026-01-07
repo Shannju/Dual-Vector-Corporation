@@ -35,6 +35,15 @@
             "id": "a41b5c60-67a4-4e46-8fd6-685220602027"
           },
           {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": false
+            },
+            "id": "376b4fcf-def7-447f-a33f-cbe64818edd4"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
               "actorId": "0",
@@ -50,6 +59,15 @@
               "useCollisions": false
             },
             "id": "582603dc-d895-4a86-9d60-cc7d1b9cd47a"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": false
+            },
+            "id": "02ea2880-cbd1-4617-a15c-617b6d16f3c8"
           }
         ]
       },

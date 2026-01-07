@@ -20,7 +20,11 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "C"
+          "......\n",
+          "I found these \nterminals",
+          "seems like it \nguides me to the",
+          "exit of this room",
+          "......"
         ],
         "__section": "text",
         "avatarId": "",

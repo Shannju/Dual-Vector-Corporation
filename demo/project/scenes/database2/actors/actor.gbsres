@@ -20,7 +20,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "A"
+          "More traps and \nplatforms...",
+          "Guess I wll do \nthe same thing"
         ],
         "__section": "text",
         "avatarId": "",
@@ -50,7 +51,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "6"
+            "value": "26"
           },
           "valueB": {
             "type": "false"

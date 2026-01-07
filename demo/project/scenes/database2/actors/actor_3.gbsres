@@ -19,7 +19,14 @@
     {
       "command": "EVENT_TEXT",
       "args": {
-        "text": "",
+        "text": [
+          "...",
+          "I reach the end \nof the room, but \nI can not find \nthe exit anywhere",
+          "Is that mean Im \ntrapped here \nforever",
+          "No, it can not be \n",
+          "There has to be a \nway to leave this \nplace!",
+          "..."
+        ],
         "__section": "text",
         "avatarId": "",
         "minHeight": 4,
@@ -40,7 +47,37 @@
       "id": "9aaa9673-a20e-47f5-bb9d-bd4dda0fccfd"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "28"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "031f0c64-639d-4c9c-b7a9-50af7373fd39"
+          }
+        ],
+        "false": []
+      },
+      "id": "cb546742-809a-486f-a349-820f1c7abdb5"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

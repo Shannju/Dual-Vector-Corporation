@@ -20,7 +20,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "A"
+          "More traps...",
+          "and these traps \nseems deadly",
+          "I need to be \ncareful not to \nfall off..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -42,7 +44,37 @@
       "id": "de19e0da-08cb-4dc1-8bc1-4c7f63a81fbd"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "27"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "b0f0b463-17fc-406c-8bc9-9d3dc294745c"
+          }
+        ],
+        "false": []
+      },
+      "id": "25f7fb9b-7eec-42b9-ada4-4b4e34fa397e"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

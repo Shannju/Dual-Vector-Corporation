@@ -20,7 +20,15 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "1C"
+          "System Log 1.002..\n....",
+          "There is noise in \nthe furnace room \nevery night",
+          "We find out that \nis belong to human \nvoice",
+          "When it reaches to \n0:00 am ",
+          "The Ya HOO voice \nstart show up \nfrom the pipes",
+          "even though it \ndoes nothing for \nthe system",
+          "removing it seems \npointless",
+          "we will leave it \nhere...",
+          "Log ends here"
         ],
         "__section": "text",
         "avatarId": "",

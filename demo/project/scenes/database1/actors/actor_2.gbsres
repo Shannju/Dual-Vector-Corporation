@@ -20,7 +20,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "B"
+          "This factory is \nsuch a strange\nplace",
+          "no bio signs and \nother common \nthings would \nappear inside a\nfactory. ",
+          "There is only \nstrange moving \nplatforms and \ntraps. ",
+          "What is this \nplace?"
         ],
         "__section": "text",
         "avatarId": "",

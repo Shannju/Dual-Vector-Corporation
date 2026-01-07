@@ -20,7 +20,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "A"
+          "When my vision\nsystem is online,",
+          "the first thing I \nknow is I was ",
+          "trapped in an \nunknown factory."
         ],
         "__section": "text",
         "avatarId": "",

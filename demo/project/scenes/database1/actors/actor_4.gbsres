@@ -20,7 +20,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "1A"
+          "I used the \nability to get \npass the obstacles",
+          "even though I \nstill did not \nfigure out why \nthey place these \ntraps",
+          "The only thing I \ncan do is follow \nthe terminal and \nkeep going"
         ],
         "__section": "text",
         "avatarId": "",

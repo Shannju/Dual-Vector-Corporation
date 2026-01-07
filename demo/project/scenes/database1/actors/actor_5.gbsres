@@ -20,7 +20,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "1B"
+          "......",
+          "...Protocol \nIO55781E \nactivated, \ninitiating layout \nchange...",
+          "......",
+          "The record ends \nhere."
         ],
         "__section": "text",
         "avatarId": "",

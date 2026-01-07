@@ -132,6 +132,21 @@
       "symbol": "var_savepoint_pl_l2_a_y"
     },
     {
+      "id": "26",
+      "name": "Collections_L2_A",
+      "symbol": "var_collections_l2_a"
+    },
+    {
+      "id": "27",
+      "name": "Collections_L2_B",
+      "symbol": "var_collections_l2_b"
+    },
+    {
+      "id": "28",
+      "name": "Collections_L2_C",
+      "symbol": "var_collections_l2_c"
+    },
+    {
       "id": "2c7db72b-7bae-411d-85fb-c34530f1efdc__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
