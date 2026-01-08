@@ -28,7 +28,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Go to next level"
+          "Permission \nverification in \nprogress...",
+          "Operation number \n0-Z confirmed",
+          "Gate open"
         ],
         "__section": "text",
         "avatarId": "",
@@ -48,6 +50,23 @@
         "closeDelayFrames": 30
       },
       "id": "073062df-9741-497c-910f-725e83f2040a"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 243
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "3bdb4efb-e51e-4e98-a9ab-c25ad44c5e4b"
     },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -85,7 +104,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 239,
+  "x": 236,
   "y": 7,
   "_index": 10
 }

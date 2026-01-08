@@ -28,7 +28,11 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Go to next level"
+          "Permission \nverification in \nprogress...",
+          "Operation number \n0-Z confirmed",
+          "Anomaly detected",
+          "......",
+          "Gate open"
         ],
         "__section": "text",
         "avatarId": "",

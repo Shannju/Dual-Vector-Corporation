@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Press ENTER to see\nthe storage data"
+          "Press Start to see\nthe storage data"
         ],
         "__section": "text",
         "avatarId": "",

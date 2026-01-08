@@ -28,7 +28,11 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Go to next level"
+          "Permission \nverification in \nprogress...",
+          "Operation number \n0-Z confirmed",
+          "Error\nInsufficient \npermis",
+          "......",
+          "Gate open"
         ],
         "__section": "text",
         "avatarId": "",
@@ -82,7 +86,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "c91ead6c-b0ca-41f5-b3e8-0658890f11a4",
+        "sceneId": "f6ea2025-1280-4b0b-9a00-452d8498be73",
         "x": {
           "type": "number",
           "value": 1
@@ -102,7 +106,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 223,
+  "x": 224,
   "y": 29,
   "_index": 8
 }
